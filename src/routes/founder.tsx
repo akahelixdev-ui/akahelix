@@ -184,7 +184,7 @@ const CAP_INSPECTOR_CHECKLIST = [
 
 export function DedicatedFounderPage() {
   const [activePillar, setActivePillar] = useState<string>("cytogenetics");
-  const selectedPillar = CQ_PILLARS.find((p) => p.id === activePillar) || CQ_PILLARS[0];
+  const selectedPillar = (CQ_PILLARS.find((p) => p.id === activePillar) || CQ_PILLARS[0])!;
 
   return (
     <>
@@ -685,7 +685,7 @@ export function DedicatedFounderPage() {
             </div>
 
             <div className="col-span-12 lg:col-span-4 lg:text-right flex flex-col items-start lg:items-end gap-3">
-              <Cta to="/contact" variant="solid" size="lg" className="bg-paper text-blue hover:bg-mist font-medium">
+              <Cta to="/contact" variant="light" size="lg" className="bg-paper text-blue hover:bg-mist font-medium">
                 Book a scoping discussion
               </Cta>
               <Link to="/leadership" className="text-xs text-on-blue-muted hover:text-on-blue underline mt-2">

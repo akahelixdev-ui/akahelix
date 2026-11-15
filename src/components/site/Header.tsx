@@ -60,9 +60,9 @@ export function Header() {
           </div>
 
           <div className="relative z-10 ml-auto hidden items-center gap-6 lg:flex">
-            <Link to="/sign-in" className={linkClass}>
+            <a href="https://app.akahelix.com" className={linkClass}>
               Sign in
-            </Link>
+            </a>
             <Cta
               to="/contact"
               variant="outline"
@@ -102,9 +102,9 @@ export function Header() {
               transition={{ delay: 0.35 }}
               className="mt-10 flex flex-col gap-6"
             >
-              <Link to="/sign-in" className={cn(linkClass, "w-fit")}>
+              <a href="https://app.akahelix.com" className={cn(linkClass, "w-fit")}>
                 Sign in
-              </Link>
+              </a>
               <Cta to="/contact" variant="outline" size="md" magnetic={false} className="h-10 w-fit pl-5 pr-1 text-[0.8125rem] [&>span:last-child]:size-8">
                 Contact us
               </Cta>

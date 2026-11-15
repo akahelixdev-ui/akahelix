@@ -92,9 +92,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/sign-in" className="link-draw text-muted-foreground/75 hover:text-blue">
+                <a href="https://app.akahelix.com" className="link-draw text-muted-foreground/75 hover:text-blue">
                   Client portal
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
