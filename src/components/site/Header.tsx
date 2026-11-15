@@ -61,8 +61,8 @@ export function Header() {
           <ChromosomeStrip className="text-foreground" />
         </div>
         <div className="container-x flex h-14 items-center justify-between md:h-16">
-          <Link
-            to="/"
+          <a
+            href="https://akahelix.com"
             className={cn(
               "relative z-10 transition-colors",
               open ? "text-on-blue" : "text-foreground",
@@ -70,7 +70,7 @@ export function Header() {
             aria-label="AKAHELIX home"
           >
             <Wordmark />
-          </Link>
+          </a>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">
             {nav.map((item) => (

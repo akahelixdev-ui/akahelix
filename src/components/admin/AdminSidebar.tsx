@@ -108,13 +108,13 @@ export function AdminSidebar({
       {/* Top Header / Brand */}
       <div>
         <div className="flex h-16 items-center justify-between border-b border-border px-4">
-          <Link
-            to="/"
+          <a
+            href="https://akahelix.com"
             className={cn(
               "flex items-center gap-2.5 overflow-hidden transition-opacity hover:opacity-85",
               collapsed && "justify-center",
             )}
-            title="Return to Public Site"
+            title="Return to Public Site (https://akahelix.com)"
           >
             <Mark className="size-7 rounded-[4px] shrink-0" />
             {!collapsed && (
@@ -127,7 +127,7 @@ export function AdminSidebar({
                 </span>
               </div>
             )}
-          </Link>
+          </a>
 
           <button
             type="button"
@@ -273,17 +273,17 @@ export function AdminSidebar({
 
       {/* Bottom Footer / Profile & Public site link */}
       <div className="border-t border-border p-3 space-y-2">
-        <Link
-          to="/"
+        <a
+          href="https://akahelix.com"
           className={cn(
             "flex items-center gap-2.5 rounded-[4px] px-2.5 py-2 text-[0.8125rem] text-muted-foreground transition-colors hover:bg-mist hover:text-blue",
             collapsed && "justify-center px-0",
           )}
-          title="Return to Public Website"
+          title="Return to Public Website (https://akahelix.com)"
         >
           <ArrowSquareOut size={16} className="shrink-0" />
           {!collapsed && <span>Public Website</span>}
-        </Link>
+        </a>
 
         {onSignOut && (
           <button

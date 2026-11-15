@@ -59,7 +59,13 @@ export function Footer() {
       <div className="container-x pt-20 md:pt-28">
         <div className="grid-12 gap-y-12">
           <div className="col-span-12 md:col-span-5">
-            <Wordmark />
+            <a
+              href="https://akahelix.com"
+              className="inline-block transition-opacity hover:opacity-85"
+              aria-label="AKAHELIX home"
+            >
+              <Wordmark />
+            </a>
             <p className="mt-6 max-w-[38ch] text-[0.9375rem] text-muted-foreground">
               Planning, building and validating high-complexity molecular genetics, cytogenetics and oncology
               laboratories.
