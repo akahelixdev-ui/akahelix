@@ -76,7 +76,6 @@ export const nav = [
   { to: "/services", label: "Services" },
   { to: "/approach", label: "Approach" },
   { to: "/track-record", label: "Track record" },
-  { to: "/leadership", label: "Leadership" },
   { to: "/founder", label: "Founder" },
   { to: "/book", label: "Book" },
 ] as const;
