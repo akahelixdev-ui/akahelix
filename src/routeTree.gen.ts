@@ -20,6 +20,7 @@ import { Route as LeadershipRouteImport } from './routes/leadership'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as SignInRouteImport } from './routes/sign-in'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TrackRecordRouteImport } from './routes/track-record'
 import { Route as ApiChatRouteImport } from './routes/api/chat'
 import { Route as ServicesIndexRouteImport } from './routes/services/index'
@@ -80,6 +81,11 @@ const SignInRoute = SignInRouteImport.update({
   path: '/sign-in',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TrackRecordRoute = TrackRecordRouteImport.update({
   id: '/track-record',
   path: '/track-record',
@@ -113,6 +119,7 @@ export interface FileRoutesByFullPath {
   '/login': typeof LoginRoute
   '/services': typeof ServicesRouteWithChildren
   '/sign-in': typeof SignInRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/track-record': typeof TrackRecordRoute
   '/api/chat': typeof ApiChatRoute
   '/services/$slug': typeof ServicesSlugRoute
@@ -129,6 +136,7 @@ export interface FileRoutesByTo {
   '/leadership': typeof LeadershipRoute
   '/login': typeof LoginRoute
   '/sign-in': typeof SignInRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/track-record': typeof TrackRecordRoute
   '/api/chat': typeof ApiChatRoute
   '/services/$slug': typeof ServicesSlugRoute
@@ -147,6 +155,7 @@ export interface FileRoutesById {
   '/login': typeof LoginRoute
   '/services': typeof ServicesRouteWithChildren
   '/sign-in': typeof SignInRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/track-record': typeof TrackRecordRoute
   '/api/chat': typeof ApiChatRoute
   '/services/$slug': typeof ServicesSlugRoute
@@ -166,6 +175,7 @@ export interface FileRouteTypes {
     | '/login'
     | '/services'
     | '/sign-in'
+    | '/sitemap.xml'
     | '/track-record'
     | '/api/chat'
     | '/services/$slug'
@@ -182,6 +192,7 @@ export interface FileRouteTypes {
     | '/leadership'
     | '/login'
     | '/sign-in'
+    | '/sitemap.xml'
     | '/track-record'
     | '/api/chat'
     | '/services/$slug'
@@ -199,6 +210,7 @@ export interface FileRouteTypes {
     | '/login'
     | '/services'
     | '/sign-in'
+    | '/sitemap.xml'
     | '/track-record'
     | '/api/chat'
     | '/services/$slug'
@@ -217,6 +229,7 @@ export interface RootRouteChildren {
   LoginRoute: typeof LoginRoute
   ServicesRoute: typeof ServicesRouteWithChildren
   SignInRoute: typeof SignInRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TrackRecordRoute: typeof TrackRecordRoute
   ApiChatRoute: typeof ApiChatRoute
 }
@@ -300,6 +313,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SignInRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/track-record': {
       id: '/track-record'
       path: '/track-record'
@@ -357,6 +377,7 @@ const rootRouteChildren: RootRouteChildren = {
   LoginRoute: LoginRoute,
   ServicesRoute: ServicesRouteWithChildren,
   SignInRoute: SignInRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TrackRecordRoute: TrackRecordRoute,
   ApiChatRoute: ApiChatRoute,
 }
