@@ -96,6 +96,16 @@ export function Footer() {
                   Client portal
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://hhf.akahelix.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link-draw text-muted-foreground/75 hover:text-blue"
+                >
+                  Halim Hashi Foundation
+                </a>
+              </li>
             </ul>
           </div>
           <div className="col-span-6 md:col-span-2">
