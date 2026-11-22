@@ -59,6 +59,52 @@ export const Route = createFileRoute("/founder")({
     links: [
       { rel: "canonical", href: "https://www.akahelix.com/founder" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://www.akahelix.com/founder#person",
+          name: "Dr. Abul Kalam Azad",
+          givenName: "Abul Kalam",
+          familyName: "Azad",
+          honorificPrefix: "Dr.",
+          honorificSuffix: "MD, MSc, PhD",
+          jobTitle: "Founder & CEO",
+          worksFor: {
+            "@type": "Organization",
+            "@id": "https://www.akahelix.com/#organization",
+            name: "AKAHELIX",
+            url: "https://www.akahelix.com/",
+          },
+          url: "https://www.akahelix.com/founder",
+          image: "https://www.akahelix.com/azad-portrait.jpg",
+          description:
+            "Founder & CEO of AKAHELIX INC., NYS-qualified Laboratory Director in Cytogenetics, Genetic Testing, and Oncology, practicing CAP Inspector, and Assistant Professor of Pathology at Albert Einstein College of Medicine.",
+          sameAs: [
+            "https://www.linkedin.com/in/abul-kalam-azad-75496362/",
+            "https://orcid.org/0000-0002-9236-9598",
+            "https://einsteinmed.edu/faculty/16957/abul-k-azad",
+            "https://www.ncbi.nlm.nih.gov/myncbi/abul%20kalam.azad.1/bibliography/public/",
+          ],
+          alumniOf: [
+            {
+              "@type": "CollegeOrUniversity",
+              name: "Sir Salimullah Medical College",
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              name: "Asian Institute of Technology",
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              name: "KU Leuven",
+            },
+          ],
+        }).replace(/</g, "\\u003c"),
+      },
+    ],
   }),
   component: DedicatedFounderPage,
 });

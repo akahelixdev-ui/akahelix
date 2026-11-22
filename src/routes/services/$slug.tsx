@@ -43,6 +43,52 @@ export const Route = createFileRoute("/services/$slug")({
       links: [
         { rel: "canonical", href: `https://www.akahelix.com/services/${params.slug}` },
       ],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "BreadcrumbList",
+                "@id": `https://www.akahelix.com/services/${params.slug}#breadcrumb`,
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.akahelix.com/",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "Services",
+                    item: "https://www.akahelix.com/services",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: service.title,
+                    item: `https://www.akahelix.com/services/${params.slug}`,
+                  },
+                ],
+              },
+              {
+                "@type": "Service",
+                "@id": `https://www.akahelix.com/services/${params.slug}#service`,
+                name: service.title,
+                description: service.summary,
+                url: `https://www.akahelix.com/services/${params.slug}`,
+                provider: {
+                  "@type": "Organization",
+                  name: "AKAHELIX",
+                  url: "https://www.akahelix.com/",
+                },
+              },
+            ],
+          }).replace(/</g, "\\u003c"),
+        },
+      ],
     };
   },
   component: ServiceDetailPage,

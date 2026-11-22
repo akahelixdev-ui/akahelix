@@ -62,6 +62,50 @@ export const Route = createFileRoute("/")({
     links: [
       { rel: "canonical", href: "https://www.akahelix.com/" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://www.akahelix.com/#organization",
+              name: "AKAHELIX",
+              legalName: "AKAHELIX INC.",
+              url: "https://www.akahelix.com/",
+              logo: "https://www.akahelix.com/favicon.svg",
+              image: "https://www.akahelix.com/og-image.jpg",
+              description:
+                "AKAHELIX plans, builds and validates high-complexity molecular and cytogenetics laboratories.",
+              email: "azadak71@proton.me",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Port Chester",
+                addressRegion: "NY",
+                addressCountry: "US",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer support",
+                email: "azadak71@proton.me",
+                url: "https://www.akahelix.com/contact",
+              },
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.akahelix.com/#website",
+              url: "https://www.akahelix.com/",
+              name: "AKAHELIX",
+              description: "Genetics laboratory set-up and validation",
+              publisher: {
+                "@id": "https://www.akahelix.com/#organization",
+              },
+            },
+          ],
+        }).replace(/</g, "\\u003c"),
+      },
+    ],
   }),
   component: Index,
 });

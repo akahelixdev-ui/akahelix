@@ -29,6 +29,38 @@ export const Route = createFileRoute("/book")({
     links: [
       { rel: "canonical", href: "https://www.akahelix.com/book" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "@id": "https://www.akahelix.com/book#book",
+          name: "Genetic Blueprint: Bench to Bed",
+          alternateName: "Genetic Blueprint",
+          headline: "An Integrated Review of Medical Laboratory Genetics",
+          description:
+            "Study guides and notes written to the ABMGG General and LGG blueprints, by Dr. Abul Kalam Azad. One book, seven credentials. First edition, 2026.",
+          isbn: "979-8-234-24155-9",
+          bookEdition: "First Edition",
+          datePublished: "2026",
+          inLanguage: "en",
+          url: "https://www.akahelix.com/book",
+          author: {
+            "@type": "Person",
+            "@id": "https://www.akahelix.com/founder#person",
+            name: "Dr. Abul Kalam Azad",
+            url: "https://www.akahelix.com/founder",
+          },
+          publisher: {
+            "@type": "Organization",
+            "@id": "https://www.akahelix.com/#organization",
+            name: "AKAHELIX INC.",
+            url: "https://www.akahelix.com/",
+          },
+        }).replace(/</g, "\\u003c"),
+      },
+    ],
   }),
   component: BookPage,
 });
