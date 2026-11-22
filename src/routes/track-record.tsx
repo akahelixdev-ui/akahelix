@@ -24,7 +24,11 @@ export const Route = createFileRoute("/track-record")({
         content: "14 NYSDOH LDTs, a CLSI standard co-written, and validations published.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.akahelix.com/track-record" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/track-record" },
     ],
   }),
   component: TrackRecordPage,

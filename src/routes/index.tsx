@@ -59,6 +59,9 @@ export const Route = createFileRoute("/")({
       { name: "twitter:image", content: "https://www.akahelix.com/og-image.jpg" },
       { name: "twitter:image:alt", content: "AKAHELIX — LDT Validation & Clinical Compliance" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/" },
+    ],
   }),
   component: Index,
 });

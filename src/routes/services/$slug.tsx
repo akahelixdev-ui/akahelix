@@ -38,6 +38,10 @@ export const Route = createFileRoute("/services/$slug")({
         { property: "og:title", content: `${service.title} — AKAHELIX` },
         { property: "og:description", content: service.tagline },
         { property: "og:type", content: "website" },
+        { property: "og:url", content: `https://www.akahelix.com/services/${params.slug}` },
+      ],
+      links: [
+        { rel: "canonical", href: `https://www.akahelix.com/services/${params.slug}` },
       ],
     };
   },

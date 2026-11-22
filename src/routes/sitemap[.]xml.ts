@@ -21,7 +21,7 @@ const publicRoutes = [
 
 const currentDate = new Date().toISOString().split("T")[0];
 
-export function generateSitemapXml(baseUrl = "https://akahelix.com"): string {
+export function generateSitemapXml(baseUrl = "https://www.akahelix.com"): string {
   const urls = publicRoutes
     .map(
       (route) => `  <url>

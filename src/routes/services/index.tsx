@@ -30,7 +30,11 @@ export const Route = createFileRoute("/services/")({
           "From first floor plan to steady-state operation. Take the full set, or any one of them.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.akahelix.com/services" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/services" },
     ],
   }),
   component: ServicesIndexPage,

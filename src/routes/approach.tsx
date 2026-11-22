@@ -23,7 +23,11 @@ export const Route = createFileRoute("/approach")({
         content: "Five phases, each closed by a signed-off gate. Fixed fees, honest scope.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.akahelix.com/approach" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/approach" },
     ],
   }),
   component: ApproachPage,

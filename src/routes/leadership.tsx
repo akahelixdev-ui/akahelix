@@ -66,6 +66,9 @@ export const Route = createFileRoute("/leadership")({
       },
       { name: "twitter:image", content: "https://www.akahelix.com/og-image.jpg" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/leadership" },
+    ],
   }),
   component: LeadershipPage,
 });

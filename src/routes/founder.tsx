@@ -56,6 +56,9 @@ export const Route = createFileRoute("/founder")({
       },
       { name: "twitter:image", content: "https://www.akahelix.com/og-image.jpg" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/founder" },
+    ],
   }),
   component: DedicatedFounderPage,
 });

@@ -22,7 +22,11 @@ export const Route = createFileRoute("/contact")({
         content: "A first call agrees scope, the entry phase and the gate criteria. A written proposal follows.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.akahelix.com/contact" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/contact" },
     ],
   }),
   component: ContactPage,

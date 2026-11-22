@@ -23,7 +23,11 @@ export const Route = createFileRoute("/book")({
         content: "61 content areas across seven credentials: 42 taught in full, 11 in part, and plain about where the other 8 stop.",
       },
       { property: "og:type", content: "book" },
+      { property: "og:url", content: "https://www.akahelix.com/book" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://www.akahelix.com/book" },
     ],
   }),
   component: BookPage,

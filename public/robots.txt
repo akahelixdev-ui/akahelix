@@ -25,4 +25,4 @@ Disallow: /admin
 Disallow: /admin_panel
 Disallow: /api/
 
-Sitemap: https://akahelix.com/sitemap.xml
+Sitemap: https://www.akahelix.com/sitemap.xml
