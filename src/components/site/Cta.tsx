@@ -115,7 +115,7 @@ export function TextLink({
   className,
 }: {
   children: ReactNode;
-  to?: LinkProps["to"];
+  to?: LinkProps["to"] | (string & {});
   href?: string;
   className?: string;
 }) {
@@ -130,7 +130,7 @@ export function TextLink({
     </>
   );
   return to ? (
-    <Link to={to} className={cls}>
+    <Link to={to as any} className={cls}>
       {inner}
     </Link>
   ) : (

@@ -260,13 +260,23 @@ function Services() {
           body="Every deliverable is written for you and anchored to the regulation or checklist it will be judged against."
         >
           <TextLink to="/services" className="mt-6 text-on-blue">
-            All seven service lines
+            All eight service lines
           </TextLink>
         </SectionHead>
         <ServiceCards />
         <FadeUp className="mt-3 grid-12 gap-y-4 rounded-[4px] border border-on-blue-line p-6 md:p-8">
           <p className="label-mono col-span-12 text-on-blue-muted md:col-span-3">What we can stand up</p>
-          <p className="col-span-12 text-[1.125rem] leading-snug tracking-[-0.02em] md:col-span-9 md:text-[1.375rem]">{standUp}.</p>
+          <div className="col-span-12 md:col-span-9">
+            <p className="text-[1.125rem] leading-snug tracking-[-0.02em] md:text-[1.375rem]">{standUp}.</p>
+            <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-[0.875rem]">
+              <TextLink to="/services/inspection-readiness" className="text-on-blue">
+                Mock inspection & readiness audits
+              </TextLink>
+              <TextLink to="/services/staff-training-and-handover" className="text-on-blue">
+                Staff competency & operational handover
+              </TextLink>
+            </div>
+          </div>
         </FadeUp>
       </div>
     </section>
@@ -319,6 +329,11 @@ function CaseStudy() {
           </ul>
           <FadeUp>
             <p className="mt-6 max-w-[56ch] text-[0.9375rem] text-muted-foreground">{smaCase.method}</p>
+            <div className="mt-4">
+              <TextLink to="/services/bring-send-outs-in-house">
+                Explore send-out feasibility & cost modeling
+              </TextLink>
+            </div>
           </FadeUp>
         </div>
 
@@ -667,7 +682,15 @@ function Why() {
   return (
     <section className="bg-mist py-24 md:py-36">
       <div className="container-x">
-        <SectionHead n="07" kicker="Why AKAHELIX" title="Prepared by someone who inspects labs for CAP." />
+        <SectionHead
+          n="07"
+          kicker="Why AKAHELIX"
+          title="Prepared by someone who inspects labs for CAP."
+        >
+          <TextLink to="/services/inspection-readiness" className="mt-6">
+            Explore our inspection readiness & mock CAP audits
+          </TextLink>
+        </SectionHead>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {whyUs.map((w, i) => (
             <FadeUp key={w.title} delay={i * 0.08}>

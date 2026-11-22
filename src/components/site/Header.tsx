@@ -47,13 +47,13 @@ export function Header() {
         transition={{ duration: 0.6, ease: EASE }}
       >
         <div className="container-x relative flex h-14 items-center md:h-16">
-          <a
-            href="https://akahelix.com"
+          <Link
+            to="/"
             className="relative z-10 shrink-0 text-foreground transition-opacity hover:opacity-85"
             aria-label="AKAHELIX home"
           >
             <Wordmark />
-          </a>
+          </Link>
 
           <div className="hidden min-w-0 flex-1 justify-center lg:flex">
             <GeneNav />

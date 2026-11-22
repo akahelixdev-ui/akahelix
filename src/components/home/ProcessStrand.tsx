@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 
 import strand from "@/assets/process-strand.jpg";
+import { TextLink } from "@/components/site/Cta";
 import { DrawLine, EASE, FadeUp } from "@/components/site/motion";
 import { SectionHead } from "@/components/site/Section";
 import { phases } from "@/content/site";
@@ -23,7 +24,11 @@ export function ProcessStrand() {
           tone="blue"
           title="From floor plan to first patient result."
           body="Five phases, each closed by a gate you sign off before the next one is billed. A single new test starts at phase 3. A new laboratory runs all five."
-        />
+        >
+          <TextLink to="/approach" className="mt-6 text-on-blue">
+            Explore the five-phase approach
+          </TextLink>
+        </SectionHead>
       </div>
 
       {/* Desktop: staggered cards with lines dropping onto the strand */}

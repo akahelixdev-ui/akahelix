@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 
@@ -85,75 +86,83 @@ export function Hero() {
             delay={introDelay(1.2)}
             className="col-span-2 flex flex-col justify-center gap-3 border-t border-on-blue-line/60 p-5 sm:p-6 md:col-span-1 md:border-l md:border-t-0 md:p-8 lg:px-12"
           >
-            <div className="flex -space-x-1.5 sm:-space-x-2 shrink-0">
-              <img
-                src={portrait}
-                alt="Dr. Abul Kalam Azad"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover object-[58%_30%] grayscale"
-              />
-              <img
-                src={abuSufianPortrait}
-                alt="Abu Sufian"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={rafulAlamPortrait}
-                alt="Dr. Rauful Alam"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={badrulAnamPortrait}
-                alt="Dr. Mohammad Badrul Anam"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={abedulHaquePortrait}
-                alt="Dr. Md. Abedul Haque"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={belayatPortrait}
-                alt="Dr. Mohammad Belayat Hossain"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={mozumderPortrait}
-                alt="Ashish Kumar Mozumder"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={tangirPortrait}
-                alt="Dr. Tangir Ahamed"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-              <img
-                src={arifPortrait}
-                alt="Dr. Mohammad Arif"
-                width={36}
-                height={36}
-                className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
-              />
-            </div>
-            <p className="text-[0.875rem] leading-snug">
-              Executive leadership & co-owners
-              <span className="mt-1 block text-on-blue-muted">Dr. Azad, A. Sufian, Dr. Alam, Dr. Anam, Dr. Haque, Dr. Hossain, A. Mozumder, Dr. Ahamed & Dr. Arif</span>
-            </p>
+            <Link
+              to="/leadership"
+              className="group/lead block transition-opacity hover:opacity-90"
+              aria-label="View executive leadership and co-owner profiles"
+            >
+              <div className="flex -space-x-1.5 sm:-space-x-2 shrink-0">
+                <img
+                  src={portrait}
+                  alt="Dr. Abul Kalam Azad"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover object-[58%_30%] grayscale"
+                />
+                <img
+                  src={abuSufianPortrait}
+                  alt="Abu Sufian"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={rafulAlamPortrait}
+                  alt="Dr. Rauful Alam"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={badrulAnamPortrait}
+                  alt="Dr. Mohammad Badrul Anam"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={abedulHaquePortrait}
+                  alt="Dr. Md. Abedul Haque"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={belayatPortrait}
+                  alt="Dr. Mohammad Belayat Hossain"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={mozumderPortrait}
+                  alt="Ashish Kumar Mozumder"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={tangirPortrait}
+                  alt="Dr. Tangir Ahamed"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+                <img
+                  src={arifPortrait}
+                  alt="Dr. Mohammad Arif"
+                  width={36}
+                  height={36}
+                  className="size-8 sm:size-9 rounded-full border-2 border-blue object-cover grayscale"
+                />
+              </div>
+              <p className="mt-3 text-[0.875rem] leading-snug">
+                <span className="font-medium text-white group-hover/lead:underline underline-offset-4">
+                  Executive leadership & co-owners
+                </span>
+                <span className="mt-1 block text-on-blue-muted">Dr. Azad, A. Sufian, Dr. Alam, Dr. Anam, Dr. Haque, Dr. Hossain, A. Mozumder, Dr. Ahamed & Dr. Arif</span>
+              </p>
+            </Link>
           </FadeUp>
         </div>
       </motion.div>
