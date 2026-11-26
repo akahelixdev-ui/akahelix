@@ -17,6 +17,7 @@ import { InquiriesManager } from "@/components/admin/InquiriesManager";
 import { ProjectsManager } from "@/components/admin/ProjectsManager";
 import { SendOutCalculator } from "@/components/admin/SendOutCalculator";
 import { ValidationsManager } from "@/components/admin/ValidationsManager";
+import { GenomicsManager } from "@/components/admin/GenomicsManager";
 import { CtaArrows } from "@/components/site/Cta";
 import { EASE, FadeUp, RevealText, introDelay } from "@/components/site/motion";
 import { Mark } from "@/components/site/Wordmark";
@@ -52,7 +53,6 @@ export const Route = createFileRoute("/admin_panel")({
 
 const ADMIN_STORAGE_KEY = "akahelix_admin_authenticated";
 const OFFICIAL_ADMIN_EMAIL = "admin@akahelix.com";
-const OFFICIAL_ADMIN_PASSWORD = "AkaHelix2026!Admin";
 
 function AdminField({
   label,
@@ -110,28 +110,60 @@ function AdminPanelPage() {
   const [validations, setValidations] = useState<AssayValidation[]>(INITIAL_VALIDATIONS);
 
   useEffect(() => {
-    // Check localStorage admin session
-    const storedAuth = typeof window !== "undefined" ? localStorage.getItem(ADMIN_STORAGE_KEY) : null;
-    if (storedAuth === "true") {
-      setIsAuthenticated(true);
-      setAdminUser({ email: OFFICIAL_ADMIN_EMAIL, name: "Executive Laboratory Administrator" });
-      setCheckingAuth(false);
-      return;
+    let cancelled = false;
+
+    async function verifySession() {
+      try {
+        // 1. Check same-origin server-verified HttpOnly session cookie
+        const sessionRes = await fetch("/api/auth/session", { credentials: "include" });
+        if (sessionRes.ok) {
+          const sessionData = await sessionRes.json();
+          if (!cancelled && sessionData?.authenticated && sessionData?.user) {
+            setIsAuthenticated(true);
+            setAdminUser(sessionData.user);
+            setCheckingAuth(false);
+            return;
+          }
+        }
+
+        // 2. Fallback: check Neon Auth client session and bridge to same-origin HttpOnly cookie
+        const res: any = await authClient.getSession().catch(() => null);
+        const token = res?.data?.session?.token || res?.data?.token;
+        if (token) {
+          const bridgeRes = await fetch("/api/auth/session", {
+            method: "POST",
+            credentials: "include",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ token }),
+          });
+          if (bridgeRes.ok) {
+            const bridgeData = await bridgeRes.json();
+            if (!cancelled && bridgeData?.authenticated && bridgeData?.user) {
+              setIsAuthenticated(true);
+              setAdminUser(bridgeData.user);
+              setCheckingAuth(false);
+              return;
+            }
+          }
+        }
+
+        // No valid server session — clear any stale local flag
+        if (typeof window !== "undefined") {
+          localStorage.removeItem(ADMIN_STORAGE_KEY);
+        }
+      } catch {
+        // Ignore network errors during initial check
+      } finally {
+        if (!cancelled) {
+          setCheckingAuth(false);
+        }
+      }
     }
 
-    // Check Neon Auth session
-    authClient
-      .getSession()
-      .then((res: any) => {
-        if (res.data?.user && res.data.user.email?.includes("admin")) {
-          setIsAuthenticated(true);
-          setAdminUser(res.data.user);
-        }
-        setCheckingAuth(false);
-      })
-      .catch(() => {
-        setCheckingAuth(false);
-      });
+    verifySession();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   // Sync stored dashboard records
@@ -151,33 +183,55 @@ function AdminPanelPage() {
     const inputEmail = email.trim().toLowerCase();
     const inputPass = password.trim();
 
-    // 1. Direct master check
-    if (inputEmail === OFFICIAL_ADMIN_EMAIL && inputPass === OFFICIAL_ADMIN_PASSWORD) {
-      localStorage.setItem(ADMIN_STORAGE_KEY, "true");
-      setIsAuthenticated(true);
-      setAdminUser({ email: OFFICIAL_ADMIN_EMAIL, name: "Executive Laboratory Administrator" });
-      setLoginLoading(false);
-      return;
-    }
-
-    // 2. Neon Managed Auth verification
+    // Neon Managed Auth verification (all credentials verified server-side)
     try {
       const res: any = await authClient.signIn.email({
         email: inputEmail,
         password: inputPass,
       });
 
-      if (res.error) {
-        setLoginError("Invalid administrator credentials. Access is restricted to authorized personnel.");
+      if (res?.error) {
+        setLoginError(res.error.message || "Invalid administrator credentials. Access is restricted to authorized personnel.");
         setLoginLoading(false);
         return;
       }
 
-      localStorage.setItem(ADMIN_STORAGE_KEY, "true");
+      let token = res?.data?.token || res?.data?.session?.token;
+      if (!token) {
+        const sessionRes: any = await authClient.getSession().catch(() => null);
+        token = sessionRes?.data?.session?.token || sessionRes?.data?.token;
+      }
+
+      if (!token) {
+        setLoginError("Authentication succeeded, but no session token was issued.");
+        setLoginLoading(false);
+        return;
+      }
+
+      // Establish same-origin HttpOnly session cookie verified against neon_auth.session & explicit role
+      const bridgeRes = await fetch("/api/auth/session", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token }),
+      });
+
+      const bridgeData = await bridgeRes.json().catch(() => ({}));
+      if (!bridgeRes.ok || !bridgeData?.authenticated) {
+        setLoginError(bridgeData?.message || "Access denied. Insufficient administrative privileges.");
+        setLoginLoading(false);
+        return;
+      }
+
       setIsAuthenticated(true);
-      setAdminUser(res.data?.user || { email: inputEmail, name: "Director Administrator" });
-    } catch {
-      setLoginError("Authentication failure. Check network connectivity or administrative security key.");
+      setAdminUser(bridgeData.user || res?.data?.user || { email: inputEmail, name: "Administrator" });
+    } catch (err: any) {
+      console.error("Neon Auth sign-in error:", err);
+      const msg =
+        err?.error?.message ||
+        err?.message ||
+        "Authentication failure. Check network connectivity or administrative security key.";
+      setLoginError(msg);
     } finally {
       setLoginLoading(false);
     }
@@ -186,16 +240,13 @@ function AdminPanelPage() {
   const handleAdminSignOut = async () => {
     localStorage.removeItem(ADMIN_STORAGE_KEY);
     try {
+      await fetch("/api/auth/session", { method: "DELETE", credentials: "include" });
+    } catch {}
+    try {
       await authClient.signOut();
     } catch {}
     setIsAuthenticated(false);
     setAdminUser(null);
-  };
-
-  const fillQuickCredentials = () => {
-    setEmail(OFFICIAL_ADMIN_EMAIL);
-    setPassword(OFFICIAL_ADMIN_PASSWORD);
-    setLoginError(null);
   };
 
   // Dashboard mutation handlers
@@ -328,16 +379,6 @@ function AdminPanelPage() {
                   </div>
                   <p className="font-mono text-base font-medium text-foreground">{OFFICIAL_ADMIN_EMAIL}</p>
                   <p className="text-[0.9375rem] text-muted-foreground">Dr. Farhad Azad · Laboratory Director</p>
-                  <div className="pt-2">
-                    <button
-                      type="button"
-                      onClick={fillQuickCredentials}
-                      className="group/pill inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-mono text-[0.8125rem] text-muted-foreground transition-all duration-300 hover:border-blue hover:text-blue cursor-pointer"
-                    >
-                      <span>Auto-fill director credentials</span>
-                      <ArrowUpRight className="size-3 transition-transform duration-300 group-hover/pill:translate-x-0.5 group-hover/pill:-translate-y-0.5" />
-                    </button>
-                  </div>
                 </div>
 
                 <p className="label-mono text-muted-foreground pt-4">
@@ -483,6 +524,8 @@ function AdminPanelPage() {
           onResetData={handleResetData}
         />
       )}
+
+      {currentTab === "genomics" && <GenomicsManager />}
     </AdminLayout>
   );
 }

@@ -11,7 +11,8 @@ export type AdminTab =
   | "validations"
   | "calculator"
   | "assistant"
-  | "settings";
+  | "settings"
+  | "genomics";
 
 interface AdminLayoutProps {
   currentTab: AdminTab;

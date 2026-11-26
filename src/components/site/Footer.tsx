@@ -51,12 +51,12 @@ function ClosingPanel() {
   );
 }
 
-export function Footer() {
+export function Footer({ hideCta = false }: { hideCta?: boolean }) {
   return (
     <footer className="relative overflow-hidden pt-8 md:pt-12">
-      <ClosingPanel />
+      {!hideCta && <ClosingPanel />}
 
-      <div className="container-x pt-20 md:pt-28">
+      <div className={hideCta ? "container-x pt-10 md:pt-14 border-t border-border" : "container-x pt-20 md:pt-28"}>
         <div className="grid-12 gap-y-12">
           <div className="col-span-12 md:col-span-5">
             <Link

@@ -23,8 +23,20 @@ import { Route as SignInRouteImport } from './routes/sign-in'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TrackRecordRouteImport } from './routes/track-record'
 import { Route as ApiChatRouteImport } from './routes/api/chat'
+import { Route as ApiGenomicsRouteImport } from './routes/api/genomics'
+import { Route as ApiInngestRouteImport } from './routes/api/inngest'
+import { Route as GenomicsIndexRouteImport } from './routes/genomics/index'
+import { Route as GenomicsResearchRouteImport } from './routes/genomics/research'
+import { Route as GenomicsSearchRouteImport } from './routes/genomics/search'
 import { Route as ServicesIndexRouteImport } from './routes/services/index'
 import { Route as ServicesSlugRouteImport } from './routes/services/$slug'
+import { Route as ApiAuthSessionRouteImport } from './routes/api/auth/session'
+import { Route as GenomicsDiseasesIndexRouteImport } from './routes/genomics/diseases/index'
+import { Route as GenomicsDiseasesIdRouteImport } from './routes/genomics/diseases/$id'
+import { Route as GenomicsGenesIndexRouteImport } from './routes/genomics/genes/index'
+import { Route as GenomicsGenesIdRouteImport } from './routes/genomics/genes/$id'
+import { Route as GenomicsVariantsIndexRouteImport } from './routes/genomics/variants/index'
+import { Route as GenomicsVariantsIdRouteImport } from './routes/genomics/variants/$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -96,6 +108,31 @@ const ApiChatRoute = ApiChatRouteImport.update({
   path: '/api/chat',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiGenomicsRoute = ApiGenomicsRouteImport.update({
+  id: '/api/genomics',
+  path: '/api/genomics',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiInngestRoute = ApiInngestRouteImport.update({
+  id: '/api/inngest',
+  path: '/api/inngest',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsIndexRoute = GenomicsIndexRouteImport.update({
+  id: '/genomics/',
+  path: '/genomics/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsResearchRoute = GenomicsResearchRouteImport.update({
+  id: '/genomics/research',
+  path: '/genomics/research',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsSearchRoute = GenomicsSearchRouteImport.update({
+  id: '/genomics/search',
+  path: '/genomics/search',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesIndexRoute = ServicesIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -105,6 +142,41 @@ const ServicesSlugRoute = ServicesSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
   getParentRoute: () => ServicesRoute,
+} as any)
+const ApiAuthSessionRoute = ApiAuthSessionRouteImport.update({
+  id: '/api/auth/session',
+  path: '/api/auth/session',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsDiseasesIndexRoute = GenomicsDiseasesIndexRouteImport.update({
+  id: '/genomics/diseases/',
+  path: '/genomics/diseases/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsDiseasesIdRoute = GenomicsDiseasesIdRouteImport.update({
+  id: '/genomics/diseases/$id',
+  path: '/genomics/diseases/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsGenesIndexRoute = GenomicsGenesIndexRouteImport.update({
+  id: '/genomics/genes/',
+  path: '/genomics/genes/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsGenesIdRoute = GenomicsGenesIdRouteImport.update({
+  id: '/genomics/genes/$id',
+  path: '/genomics/genes/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsVariantsIndexRoute = GenomicsVariantsIndexRouteImport.update({
+  id: '/genomics/variants/',
+  path: '/genomics/variants/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GenomicsVariantsIdRoute = GenomicsVariantsIdRouteImport.update({
+  id: '/genomics/variants/$id',
+  path: '/genomics/variants/$id',
+  getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -122,8 +194,20 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/track-record': typeof TrackRecordRoute
   '/api/chat': typeof ApiChatRoute
+  '/api/genomics': typeof ApiGenomicsRoute
+  '/api/inngest': typeof ApiInngestRoute
+  '/genomics/research': typeof GenomicsResearchRoute
+  '/genomics/search': typeof GenomicsSearchRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/genomics/': typeof GenomicsIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/api/auth/session': typeof ApiAuthSessionRoute
+  '/genomics/diseases/$id': typeof GenomicsDiseasesIdRoute
+  '/genomics/genes/$id': typeof GenomicsGenesIdRoute
+  '/genomics/variants/$id': typeof GenomicsVariantsIdRoute
+  '/genomics/diseases/': typeof GenomicsDiseasesIndexRoute
+  '/genomics/genes/': typeof GenomicsGenesIndexRoute
+  '/genomics/variants/': typeof GenomicsVariantsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -139,8 +223,20 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/track-record': typeof TrackRecordRoute
   '/api/chat': typeof ApiChatRoute
+  '/api/genomics': typeof ApiGenomicsRoute
+  '/api/inngest': typeof ApiInngestRoute
+  '/genomics/research': typeof GenomicsResearchRoute
+  '/genomics/search': typeof GenomicsSearchRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/genomics': typeof GenomicsIndexRoute
   '/services': typeof ServicesIndexRoute
+  '/api/auth/session': typeof ApiAuthSessionRoute
+  '/genomics/diseases/$id': typeof GenomicsDiseasesIdRoute
+  '/genomics/genes/$id': typeof GenomicsGenesIdRoute
+  '/genomics/variants/$id': typeof GenomicsVariantsIdRoute
+  '/genomics/diseases': typeof GenomicsDiseasesIndexRoute
+  '/genomics/genes': typeof GenomicsGenesIndexRoute
+  '/genomics/variants': typeof GenomicsVariantsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -158,8 +254,20 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/track-record': typeof TrackRecordRoute
   '/api/chat': typeof ApiChatRoute
+  '/api/genomics': typeof ApiGenomicsRoute
+  '/api/inngest': typeof ApiInngestRoute
+  '/genomics/research': typeof GenomicsResearchRoute
+  '/genomics/search': typeof GenomicsSearchRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/genomics/': typeof GenomicsIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/api/auth/session': typeof ApiAuthSessionRoute
+  '/genomics/diseases/$id': typeof GenomicsDiseasesIdRoute
+  '/genomics/genes/$id': typeof GenomicsGenesIdRoute
+  '/genomics/variants/$id': typeof GenomicsVariantsIdRoute
+  '/genomics/diseases/': typeof GenomicsDiseasesIndexRoute
+  '/genomics/genes/': typeof GenomicsGenesIndexRoute
+  '/genomics/variants/': typeof GenomicsVariantsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -178,8 +286,20 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/track-record'
     | '/api/chat'
+    | '/api/genomics'
+    | '/api/inngest'
+    | '/genomics/research'
+    | '/genomics/search'
     | '/services/$slug'
+    | '/genomics/'
     | '/services/'
+    | '/api/auth/session'
+    | '/genomics/diseases/$id'
+    | '/genomics/genes/$id'
+    | '/genomics/variants/$id'
+    | '/genomics/diseases/'
+    | '/genomics/genes/'
+    | '/genomics/variants/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -195,8 +315,20 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/track-record'
     | '/api/chat'
+    | '/api/genomics'
+    | '/api/inngest'
+    | '/genomics/research'
+    | '/genomics/search'
     | '/services/$slug'
+    | '/genomics'
     | '/services'
+    | '/api/auth/session'
+    | '/genomics/diseases/$id'
+    | '/genomics/genes/$id'
+    | '/genomics/variants/$id'
+    | '/genomics/diseases'
+    | '/genomics/genes'
+    | '/genomics/variants'
   id:
     | '__root__'
     | '/'
@@ -213,8 +345,20 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/track-record'
     | '/api/chat'
+    | '/api/genomics'
+    | '/api/inngest'
+    | '/genomics/research'
+    | '/genomics/search'
     | '/services/$slug'
+    | '/genomics/'
     | '/services/'
+    | '/api/auth/session'
+    | '/genomics/diseases/$id'
+    | '/genomics/genes/$id'
+    | '/genomics/variants/$id'
+    | '/genomics/diseases/'
+    | '/genomics/genes/'
+    | '/genomics/variants/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -232,6 +376,18 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TrackRecordRoute: typeof TrackRecordRoute
   ApiChatRoute: typeof ApiChatRoute
+  ApiGenomicsRoute: typeof ApiGenomicsRoute
+  ApiInngestRoute: typeof ApiInngestRoute
+  GenomicsResearchRoute: typeof GenomicsResearchRoute
+  GenomicsSearchRoute: typeof GenomicsSearchRoute
+  GenomicsIndexRoute: typeof GenomicsIndexRoute
+  ApiAuthSessionRoute: typeof ApiAuthSessionRoute
+  GenomicsDiseasesIdRoute: typeof GenomicsDiseasesIdRoute
+  GenomicsGenesIdRoute: typeof GenomicsGenesIdRoute
+  GenomicsVariantsIdRoute: typeof GenomicsVariantsIdRoute
+  GenomicsDiseasesIndexRoute: typeof GenomicsDiseasesIndexRoute
+  GenomicsGenesIndexRoute: typeof GenomicsGenesIndexRoute
+  GenomicsVariantsIndexRoute: typeof GenomicsVariantsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -334,6 +490,41 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiChatRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/genomics': {
+      id: '/api/genomics'
+      path: '/api/genomics'
+      fullPath: '/api/genomics'
+      preLoaderRoute: typeof ApiGenomicsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/inngest': {
+      id: '/api/inngest'
+      path: '/api/inngest'
+      fullPath: '/api/inngest'
+      preLoaderRoute: typeof ApiInngestRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/': {
+      id: '/genomics/'
+      path: '/genomics'
+      fullPath: '/genomics/'
+      preLoaderRoute: typeof GenomicsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/research': {
+      id: '/genomics/research'
+      path: '/genomics/research'
+      fullPath: '/genomics/research'
+      preLoaderRoute: typeof GenomicsResearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/search': {
+      id: '/genomics/search'
+      path: '/genomics/search'
+      fullPath: '/genomics/search'
+      preLoaderRoute: typeof GenomicsSearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services/': {
       id: '/services/'
       path: '/'
@@ -347,6 +538,55 @@ declare module '@tanstack/react-router' {
       fullPath: '/services/$slug'
       preLoaderRoute: typeof ServicesSlugRouteImport
       parentRoute: typeof ServicesRoute
+    }
+    '/api/auth/session': {
+      id: '/api/auth/session'
+      path: '/api/auth/session'
+      fullPath: '/api/auth/session'
+      preLoaderRoute: typeof ApiAuthSessionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/diseases/': {
+      id: '/genomics/diseases/'
+      path: '/genomics/diseases'
+      fullPath: '/genomics/diseases/'
+      preLoaderRoute: typeof GenomicsDiseasesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/diseases/$id': {
+      id: '/genomics/diseases/$id'
+      path: '/genomics/diseases/$id'
+      fullPath: '/genomics/diseases/$id'
+      preLoaderRoute: typeof GenomicsDiseasesIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/genes/': {
+      id: '/genomics/genes/'
+      path: '/genomics/genes'
+      fullPath: '/genomics/genes/'
+      preLoaderRoute: typeof GenomicsGenesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/genes/$id': {
+      id: '/genomics/genes/$id'
+      path: '/genomics/genes/$id'
+      fullPath: '/genomics/genes/$id'
+      preLoaderRoute: typeof GenomicsGenesIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/variants/': {
+      id: '/genomics/variants/'
+      path: '/genomics/variants'
+      fullPath: '/genomics/variants/'
+      preLoaderRoute: typeof GenomicsVariantsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/genomics/variants/$id': {
+      id: '/genomics/variants/$id'
+      path: '/genomics/variants/$id'
+      fullPath: '/genomics/variants/$id'
+      preLoaderRoute: typeof GenomicsVariantsIdRouteImport
+      parentRoute: typeof rootRouteImport
     }
   }
 }
@@ -380,6 +620,18 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TrackRecordRoute: TrackRecordRoute,
   ApiChatRoute: ApiChatRoute,
+  ApiGenomicsRoute: ApiGenomicsRoute,
+  ApiInngestRoute: ApiInngestRoute,
+  GenomicsResearchRoute: GenomicsResearchRoute,
+  GenomicsSearchRoute: GenomicsSearchRoute,
+  GenomicsIndexRoute: GenomicsIndexRoute,
+  ApiAuthSessionRoute: ApiAuthSessionRoute,
+  GenomicsDiseasesIdRoute: GenomicsDiseasesIdRoute,
+  GenomicsGenesIdRoute: GenomicsGenesIdRoute,
+  GenomicsVariantsIdRoute: GenomicsVariantsIdRoute,
+  GenomicsDiseasesIndexRoute: GenomicsDiseasesIndexRoute,
+  GenomicsGenesIndexRoute: GenomicsGenesIndexRoute,
+  GenomicsVariantsIndexRoute: GenomicsVariantsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

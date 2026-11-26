@@ -154,6 +154,7 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const isPortal = pathname.startsWith("/admin") || pathname.startsWith("/admin_panel");
+  const isGenomics = pathname.startsWith("/genomics");
 
   useEffect(() => {
     // Disable iOS Safari pinch-to-zoom and gesture zooming
@@ -178,7 +179,7 @@ function RootComponent() {
           {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
           <Outlet />
         </main>
-        {!isPortal && <Footer />}
+        {!isPortal && <Footer hideCta={isGenomics} />}
         {!isPortal && <AssistantWidget />}
       </MotionConfig>
     </QueryClientProvider>

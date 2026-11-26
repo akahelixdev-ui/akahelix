@@ -1,0 +1,4485 @@
+{
+  "diseases": [
+    {
+      "id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "slug": "beta-thalassemia",
+      "name": "Beta-thalassemia",
+      "concept_id": "C0005283",
+      "omim_id": "613985",
+      "orpha_code": "848",
+      "mondo_id": "MONDO:0011504",
+      "icd10": "D56.1",
+      "inheritance_mode": "Autosomal recessive",
+      "definition": "Beta-thalassemia is an inherited hemoglobinopathy characterized by impaired or absent synthesis of the beta-globin chain of adult hemoglobin A (HbA), resulting in microcytic hypochromic anemia, ineffective erythropoiesis, and extramedullary hematopoiesis.",
+      "source_record": {},
+      "curated_summary": "AKAHELIX clinical scope covers full-length HBB Sanger sequencing, TaqMan genotyping, and multiplex MLPA deletion analysis for carrier screening and NYSDOH CLEP high-complexity review.",
+      "clinical_synopsis": {},
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:35:51.307Z",
+      "updated_at": "2026-11-25T09:35:51.307Z"
+    },
+    {
+      "id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "slug": "alpha-thalassemia",
+      "name": "Alpha-thalassemia",
+      "concept_id": "C0002312",
+      "omim_id": "604131",
+      "orpha_code": "846",
+      "mondo_id": "MONDO:0011502",
+      "icd10": "D56.0",
+      "inheritance_mode": "Autosomal recessive",
+      "definition": "Alpha-thalassemia is caused by decreased or absent synthesis of alpha-globin polypeptide chains, resulting from large deletions or point mutations involving the HBA1 and HBA2 gene cluster on chromosome 16p13.3.",
+      "source_record": {},
+      "curated_summary": "Diagnostic assay design requires multiplex gap-PCR and MLPA to distinguish single (-alpha3.7, -alpha4.2) from double-gene (--SEA, --MED, --FIL) deletions in clinical carrier screening.",
+      "clinical_synopsis": {},
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:03.255Z",
+      "updated_at": "2026-11-25T09:36:03.255Z"
+    },
+    {
+      "id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "slug": "sickle-cell-disease",
+      "name": "Sickle Cell Disease / Sickle Cell Anemia",
+      "concept_id": "C0002895",
+      "omim_id": "603903",
+      "orpha_code": "232",
+      "mondo_id": "MONDO:0011382",
+      "icd10": "D57.0",
+      "inheritance_mode": "Autosomal recessive",
+      "definition": "Sickle cell disease is caused by homozygous or compound heterozygous pathogenic variants in HBB, producing hemoglobin S (Hb S) that polymerizes upon deoxygenation, inducing sickled erythrocyte morphology, chronic hemolytic anemia, and vaso-occlusive pain crises.",
+      "source_record": {},
+      "curated_summary": "Clinical laboratory verification requires distinguishing sickle trait (Hb AS) from sickle cell anemia (Hb SS) and sickle-beta thalassemia (Hb S/beta-thal) through quantitative molecular and protein assays.",
+      "clinical_synopsis": {},
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:13.244Z",
+      "updated_at": "2026-11-25T09:36:13.244Z"
+    },
+    {
+      "id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "slug": "spinal-muscular-atrophy",
+      "name": "Spinal Muscular Atrophy, Types 1-4",
+      "concept_id": "C0026847",
+      "omim_id": "253300",
+      "orpha_code": "823",
+      "mondo_id": "MONDO:0005311",
+      "icd10": "G12.0",
+      "inheritance_mode": "Autosomal recessive",
+      "definition": "Spinal muscular atrophy is a neuromuscular disorder caused by homozygous deletion or loss-of-function mutation in the SMN1 gene on chromosome 5q13.2, leading to progressive lower motor neuron loss, proximal muscle weakness, and respiratory insufficiency.",
+      "source_record": {},
+      "curated_summary": "In-house assay validation protocols validated by AKAHELIX quantify SMN1 and SMN2 exon 7 copy numbers and evaluate silent carrier (2+0) haplotypes with g.27134T>G linkage.",
+      "clinical_synopsis": {},
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:19.946Z",
+      "updated_at": "2026-11-25T09:36:19.946Z"
+    },
+    {
+      "id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "slug": "cystic-fibrosis",
+      "name": "Cystic Fibrosis",
+      "concept_id": "C0010674",
+      "omim_id": "219700",
+      "orpha_code": "586",
+      "mondo_id": "MONDO:0009061",
+      "icd10": "E84.0",
+      "inheritance_mode": "Autosomal recessive",
+      "definition": "Cystic fibrosis is a multisystem autosomal recessive disorder caused by biallelic mutations in the CFTR gene, leading to defective chloride and bicarbonate epithelial conductance, thick viscid secretions, chronic obstructive pulmonary disease, pancreatic insufficiency, and elevated sweat chloride concentrations.",
+      "source_record": {},
+      "curated_summary": "Core clinical carrier screening panels evaluate the ACMG-recommended 23-variant mutation set, complemented by full CFTR next-generation sequencing and MLPA copy-number analysis.",
+      "clinical_synopsis": {},
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:30.386Z",
+      "updated_at": "2026-11-25T09:36:30.386Z"
+    },
+    {
+      "id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "slug": "brca1-hereditary-cancer-susceptibility",
+      "name": "Hereditary Breast and Ovarian Cancer Syndrome (BRCA1-related)",
+      "concept_id": "C0677776",
+      "omim_id": "604370",
+      "orpha_code": "145",
+      "mondo_id": "MONDO:0012933",
+      "icd10": "Z80.3",
+      "inheritance_mode": "Autosomal dominant",
+      "definition": "Hereditary breast and ovarian cancer syndrome is an inherited cancer predisposition syndrome caused by germline pathogenic variants in BRCA1, conferring high cumulative lifetime risks of invasive female breast cancer (up to 72%), ovarian cancer (up to 44%), and elevated risk for male breast and prostate cancers.",
+      "source_record": {},
+      "curated_summary": "High-complexity oncology NGS gene panel validation requires distinguishing pathogenic loss-of-function variants from benign polymorphisms and variants of uncertain significance (VUS) per ENIGMA curation guidelines.",
+      "clinical_synopsis": {},
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:40.842Z",
+      "updated_at": "2026-11-25T09:36:40.842Z"
+    }
+  ],
+  "genes": [
+    {
+      "id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "symbol": "HBB",
+      "name": "hemoglobin subunit beta",
+      "entrez_gene_id": "3043",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "11",
+      "cytogenetic_location": "11p15.4",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "The alpha (HBA) and beta (HBB) loci determine the structure of the 2 types of polypeptide chains in adult hemoglobin, Hb A. The normal adult hemoglobin tetramer consists of two alpha chains and two beta chains. Mutant beta globin causes sickle cell anemia. Absence of beta chain causes beta-zero-thalassemia. Reduced amounts of detectable beta globin causes beta-plus-thalassemia. The order of the genes in the beta-globin cluster is 5'-epsilon -- gamma-G -- gamma-A -- delta -- beta--3'. [provided by RefSeq, Jul 2008]",
+      "source_record": {
+        "mim": [
+          "141900"
+        ],
+        "uid": "3043",
+        "name": "HBB",
+        "status": "",
+        "chrsort": "11",
+        "summary": "The alpha (HBA) and beta (HBB) loci determine the structure of the 2 types of polypeptide chains in adult hemoglobin, Hb A. The normal adult hemoglobin tetramer consists of two alpha chains and two beta chains. Mutant beta globin causes sickle cell anemia. Absence of beta chain causes beta-zero-thalassemia. Reduced amounts of detectable beta globin causes beta-plus-thalassemia. The order of the genes in the beta-globin cluster is 5'-epsilon -- gamma-G -- gamma-A -- delta -- beta--3'. [provided by RefSeq, Jul 2008]",
+        "chrstart": 5225463,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "11",
+        "geneweight": 41641,
+        "description": "hemoglobin subunit beta",
+        "genomicinfo": [
+          {
+            "chrloc": "11",
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "exoncount": 3
+          }
+        ],
+        "maplocation": "11p15.4",
+        "locationhist": [
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 5284831,
+            "chrstart": 5286438,
+            "chraccver": "NC_060935.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 5284831,
+            "chrstart": 5286438,
+            "chraccver": "NC_060935.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 5284831,
+            "chrstart": 5286438,
+            "chraccver": "NC_060935.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 5284831,
+            "chrstart": 5286438,
+            "chraccver": "NC_060935.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 5284831,
+            "chrstart": 5286438,
+            "chraccver": "NC_060935.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 5284831,
+            "chrstart": 5286438,
+            "chraccver": "NC_060935.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 5225463,
+            "chrstart": 5227070,
+            "chraccver": "NC_000011.10",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 5246693,
+            "chrstart": 5248300,
+            "chraccver": "NC_000011.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 5246693,
+            "chrstart": 5248300,
+            "chraccver": "NC_000011.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 5246695,
+            "chrstart": 5248300,
+            "chraccver": "NC_000011.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 4905868,
+            "chrstart": 4907473,
+            "chraccver": "AC_000143.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 5245630,
+            "chrstart": 5247235,
+            "chraccver": "NC_018922.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "CD113t-C, ECYT6, beta-globin",
+        "geneticsource": "genomic",
+        "nomenclaturename": "hemoglobin subunit beta",
+        "otherdesignations": "hemoglobin subunit beta|Hb Monza protein|beta globin chain|hemoglobin beta subunit|hemoglobin, beta",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "HBB"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:35:54.902Z",
+      "updated_at": "2026-11-25T09:36:15.410Z",
+      "cytoband": "11p15.4"
+    },
+    {
+      "id": "fa32a5f6-f2fb-48b3-9d9c-5e1ad6afb0df",
+      "symbol": "HBA1",
+      "name": "hemoglobin subunit alpha 1",
+      "entrez_gene_id": "3039",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "16",
+      "cytogenetic_location": "16p13.3",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "The human alpha globin gene cluster located on chromosome 16 spans about 30 kb and includes seven loci: 5'- zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 - alpha-1 - theta - 3'. The alpha-2 (HBA2) and alpha-1 (HBA1) coding sequences are identical. These genes differ slightly over the 5' untranslated regions and the introns, but they differ significantly over the 3' untranslated regions. Two alpha chains plus two beta chains constitute HbA, which in normal adult life comprises about 97% of the total hemoglobin; alpha chains combine with delta chains to constitute HbA-2, which with HbF (fetal hemoglobin) makes up the remaining 3% of adult hemoglobin. Alpha thalassemias result from deletions of each of the alpha genes as well as deletions of both HBA2 and HBA1; some nondeletion alpha thalassemias have also been reported. [provided by RefSeq, Jul 2008]",
+      "source_record": {
+        "mim": [
+          "141800"
+        ],
+        "uid": "3039",
+        "name": "HBA1",
+        "status": "",
+        "chrsort": "16",
+        "summary": "The human alpha globin gene cluster located on chromosome 16 spans about 30 kb and includes seven loci: 5'- zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 - alpha-1 - theta - 3'. The alpha-2 (HBA2) and alpha-1 (HBA1) coding sequences are identical. These genes differ slightly over the 5' untranslated regions and the introns, but they differ significantly over the 3' untranslated regions. Two alpha chains plus two beta chains constitute HbA, which in normal adult life comprises about 97% of the total hemoglobin; alpha chains combine with delta chains to constitute HbA-2, which with HbF (fetal hemoglobin) makes up the remaining 3% of adult hemoglobin. Alpha thalassemias result from deletions of each of the alpha genes as well as deletions of both HBA2 and HBA1; some nondeletion alpha thalassemias have also been reported. [provided by RefSeq, Jul 2008]",
+        "chrstart": 176679,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "16",
+        "geneweight": 33450,
+        "description": "hemoglobin subunit alpha 1",
+        "genomicinfo": [
+          {
+            "chrloc": "16",
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "exoncount": 3
+          }
+        ],
+        "maplocation": "16p13.3",
+        "locationhist": [
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 171563,
+            "chrstart": 170721,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 171563,
+            "chrstart": 170721,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 171563,
+            "chrstart": 170721,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 171563,
+            "chrstart": 170721,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 171563,
+            "chrstart": 170721,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 171563,
+            "chrstart": 170721,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 177521,
+            "chrstart": 176679,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 227520,
+            "chrstart": 226678,
+            "chraccver": "NC_000016.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 227520,
+            "chrstart": 226678,
+            "chraccver": "NC_000016.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 227519,
+            "chrstart": 226678,
+            "chraccver": "NC_000016.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 145561,
+            "chrstart": 144720,
+            "chraccver": "AC_000148.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 227526,
+            "chrstart": 226685,
+            "chraccver": "NC_018927.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "ECYT7, HBA-T3, HBH, METHBA",
+        "geneticsource": "genomic",
+        "nomenclaturename": "hemoglobin subunit alpha 1",
+        "otherdesignations": "hemoglobin subunit alpha|alpha globin chain|alpha one globin|alpha-2 globin chain|delta globin|hemoglobin alpha 1 globin chain|hemoglobin, alpha 1",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "HBA1"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:06.222Z",
+      "updated_at": "2026-11-25T09:36:06.222Z",
+      "cytoband": "16p13.3"
+    },
+    {
+      "id": "e6a05f02-4145-4c80-b718-2b00c69f9c9b",
+      "symbol": "HBA2",
+      "name": "hemoglobin subunit alpha 2",
+      "entrez_gene_id": "3040",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "16",
+      "cytogenetic_location": "16p13.3",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "The human alpha globin gene cluster located on chromosome 16 spans about 30 kb and includes seven loci: 5'- zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 - alpha-1 - theta - 3'. The alpha-2 (HBA2) and alpha-1 (HBA1) coding sequences are identical. These genes differ slightly over the 5' untranslated regions and the introns, but they differ significantly over the 3' untranslated regions. Two alpha chains plus two beta chains constitute HbA, which in normal adult life comprises about 97% of the total hemoglobin; alpha chains combine with delta chains to constitute HbA-2, which with HbF (fetal hemoglobin) makes up the remaining 3% of adult hemoglobin. Alpha thalassemias result from deletions of each of the alpha genes as well as deletions of both HBA2 and HBA1; some nondeletion alpha thalassemias have also been reported. [provided by RefSeq, Jul 2008]",
+      "source_record": {
+        "mim": [
+          "141850"
+        ],
+        "uid": "3040",
+        "name": "HBA2",
+        "status": "",
+        "chrsort": "16",
+        "summary": "The human alpha globin gene cluster located on chromosome 16 spans about 30 kb and includes seven loci: 5'- zeta - pseudozeta - mu - pseudoalpha-1 - alpha-2 - alpha-1 - theta - 3'. The alpha-2 (HBA2) and alpha-1 (HBA1) coding sequences are identical. These genes differ slightly over the 5' untranslated regions and the introns, but they differ significantly over the 3' untranslated regions. Two alpha chains plus two beta chains constitute HbA, which in normal adult life comprises about 97% of the total hemoglobin; alpha chains combine with delta chains to constitute HbA-2, which with HbF (fetal hemoglobin) makes up the remaining 3% of adult hemoglobin. Alpha thalassemias result from deletions of each of the alpha genes as well as deletions of both HBA2 and HBA1; some nondeletion alpha thalassemias have also been reported. [provided by RefSeq, Jul 2008]",
+        "chrstart": 172875,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "16",
+        "geneweight": 15221,
+        "description": "hemoglobin subunit alpha 2",
+        "genomicinfo": [
+          {
+            "chrloc": "16",
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "exoncount": 3
+          }
+        ],
+        "maplocation": "16p13.3",
+        "locationhist": [
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 167750,
+            "chrstart": 166916,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 167750,
+            "chrstart": 166916,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 167750,
+            "chrstart": 166916,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 167750,
+            "chrstart": 166916,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 167750,
+            "chrstart": 166916,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 167750,
+            "chrstart": 166916,
+            "chraccver": "NC_060940.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 173709,
+            "chrstart": 172875,
+            "chraccver": "NC_000016.10",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 223708,
+            "chrstart": 222874,
+            "chraccver": "NC_000016.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 223708,
+            "chrstart": 222874,
+            "chraccver": "NC_000016.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 223708,
+            "chrstart": 222845,
+            "chraccver": "NC_000016.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 141749,
+            "chrstart": 140886,
+            "chraccver": "AC_000148.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 223714,
+            "chrstart": 222851,
+            "chraccver": "NC_018927.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "ECYT7, HBA-T2, HBH",
+        "geneticsource": "genomic",
+        "nomenclaturename": "hemoglobin subunit alpha 2",
+        "otherdesignations": "hemoglobin subunit alpha|alpha globin|alpha-2 globin|hemoglobin alpha chain|hemoglobin, alpha 2|mutant hemoglobin alpha 2 globin chain",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "HBA2"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:07.816Z",
+      "updated_at": "2026-11-25T09:36:07.816Z",
+      "cytoband": "16p13.3"
+    },
+    {
+      "id": "f90d5376-74a7-4fbc-8d19-7cc5bdc8f292",
+      "symbol": "SMN1",
+      "name": "survival of motor neuron 1, telomeric",
+      "entrez_gene_id": "6606",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "5",
+      "cytogenetic_location": "5q13.2",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "This gene is part of a 500 kb inverted duplication on chromosome 5q13. This duplicated region contains at least four genes and repetitive elements which make it prone to rearrangements and deletions. The repetitiveness and complexity of the sequence have also caused difficulty in determining the organization of this genomic region. The telomeric and centromeric copies of this gene are nearly identical and encode the same protein. However, mutations in this gene, the telomeric copy, are associated with spinal muscular atrophy; mutations in the centromeric copy do not lead to disease. The centromeric copy may be a modifier of disease caused by mutation in the telomeric copy. The critical sequence difference between the two genes is a single nucleotide in exon 7, which is thought to be an exon splice enhancer. Note that the nine exons of both the telomeric and centromeric copies are designated historically as exon 1, 2a, 2b, and 3-8. It is thought that gene conversion events may involve the two genes, leading to varying copy numbers of each gene. The protein encoded by this gene localizes to both the cytoplasm and the nucleus. Within the nucleus, the protein localizes to subnuclear bodies called gems which are found near coiled bodies containing high concentrations of small ribonucleoproteins (snRNPs). This protein forms heteromeric complexes with proteins such as SIP1 and GEMIN4, and also interacts with several proteins known to be involved in the biogenesis of snRNPs, such as hnRNP U protein and the small nucleolar RNA binding protein. Multiple transcript variants encoding distinct isoforms have been described. [provided by RefSeq, Jul 2014]",
+      "source_record": {
+        "mim": [
+          "600354"
+        ],
+        "uid": "6606",
+        "name": "SMN1",
+        "status": "",
+        "chrsort": "05",
+        "summary": "This gene is part of a 500 kb inverted duplication on chromosome 5q13. This duplicated region contains at least four genes and repetitive elements which make it prone to rearrangements and deletions. The repetitiveness and complexity of the sequence have also caused difficulty in determining the organization of this genomic region. The telomeric and centromeric copies of this gene are nearly identical and encode the same protein. However, mutations in this gene, the telomeric copy, are associated with spinal muscular atrophy; mutations in the centromeric copy do not lead to disease. The centromeric copy may be a modifier of disease caused by mutation in the telomeric copy. The critical sequence difference between the two genes is a single nucleotide in exon 7, which is thought to be an exon splice enhancer. Note that the nine exons of both the telomeric and centromeric copies are designated historically as exon 1, 2a, 2b, and 3-8. It is thought that gene conversion events may involve the two genes, leading to varying copy numbers of each gene. The protein encoded by this gene localizes to both the cytoplasm and the nucleus. Within the nucleus, the protein localizes to subnuclear bodies called gems which are found near coiled bodies containing high concentrations of small ribonucleoproteins (snRNPs). This protein forms heteromeric complexes with proteins such as SIP1 and GEMIN4, and also interacts with several proteins known to be involved in the biogenesis of snRNPs, such as hnRNP U protein and the small nucleolar RNA binding protein. Multiple transcript variants encoding distinct isoforms have been described. [provided by RefSeq, Jul 2014]",
+        "chrstart": 70924940,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "5",
+        "geneweight": 41334,
+        "description": "survival of motor neuron 1, telomeric",
+        "genomicinfo": [
+          {
+            "chrloc": "5",
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "exoncount": 11
+          }
+        ],
+        "maplocation": "5q13.2",
+        "locationhist": [
+          {
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 520058,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 439159,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 1515738,
+            "chrstart": 1557046,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 71423140,
+            "chrstart": 71381728,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 520058,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 439159,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 1515738,
+            "chrstart": 1557046,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 71423140,
+            "chrstart": 71381728,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 520058,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 439159,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 1515738,
+            "chrstart": 1557046,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 71423140,
+            "chrstart": 71381728,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 520058,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 439159,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 1515738,
+            "chrstart": 1557046,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 71423140,
+            "chrstart": 71381728,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 520058,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 439159,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 1515738,
+            "chrstart": 1557046,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 71423140,
+            "chrstart": 71381728,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 70966374,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 501446,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 457775,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 1515738,
+            "chrstart": 1557046,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 71409803,
+            "chrstart": 71381728,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 70953014,
+            "chrstart": 70924940,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 501446,
+            "chrstart": 473375,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 457775,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 70248841,
+            "chrstart": 70220767,
+            "chraccver": "NC_000005.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 457775,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 70248841,
+            "chrstart": 70220767,
+            "chraccver": "NC_000005.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 457775,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 70248838,
+            "chrstart": 70220767,
+            "chraccver": "NC_000005.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 457778,
+            "chrstart": 485845,
+            "chraccver": "NW_003315917.2",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 65882700,
+            "chrstart": 65881628,
+            "chraccver": "AC_000137.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 69700003,
+            "chrstart": 69671935,
+            "chraccver": "NC_018916.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "BCD541, GEMIN1, SMA, SMA1, SMA2, SMA3, SMA4, SMA@, SMN, SMNT, T-BCD541, TDRD16A",
+        "geneticsource": "genomic",
+        "nomenclaturename": "survival of motor neuron 1, telomeric",
+        "otherdesignations": "survival motor neuron protein|component of gems 1|gemin-1|survival motor neuron 1 protein|tudor domain containing 16A",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "SMN1"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:22.962Z",
+      "updated_at": "2026-11-25T09:36:22.962Z",
+      "cytoband": "5q13.2"
+    },
+    {
+      "id": "ed40b46c-822f-4eb5-9c18-d52e6eeed59d",
+      "symbol": "SMN2",
+      "name": "survival of motor neuron 2, centromeric",
+      "entrez_gene_id": "6607",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "5",
+      "cytogenetic_location": "5q13.2",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "This gene is part of a 500 kb inverted duplication on chromosome 5q13. This duplicated region contains at least four genes and repetitive elements which make it prone to rearrangements and deletions. The repetitiveness and complexity of the sequence have also caused difficulty in determining the organization of this genomic region. The telomeric and centromeric copies of this gene are nearly identical and encode the same protein. While mutations in the telomeric copy are associated with spinal muscular atrophy, mutations in this gene, the centromeric copy, do not lead to disease. This gene may be a modifier of disease caused by mutation in the telomeric copy. The critical sequence difference between the two genes is a single nucleotide in exon 7, which is thought to be an exon splice enhancer. Note that the nine exons of both the telomeric and centromeric copies are designated historically as exon 1, 2a, 2b, and 3-8. It is thought that gene conversion events may involve the two genes, leading to varying copy numbers of each gene. The full length protein encoded by this gene localizes to both the cytoplasm and the nucleus. Within the nucleus, the protein localizes to subnuclear bodies called gems which are found near coiled bodies containing high concentrations of small ribonucleoproteins (snRNPs). This protein forms heteromeric complexes with proteins such as SIP1 and GEMIN4, and also interacts with several proteins known to be involved in the biogenesis of snRNPs, such as hnRNP U protein and the small nucleolar RNA binding protein. Four transcript variants encoding distinct isoforms have been described. [provided by RefSeq, Sep 2008]",
+      "source_record": {
+        "mim": [
+          "601627"
+        ],
+        "uid": "6607",
+        "name": "SMN2",
+        "status": "",
+        "chrsort": "05",
+        "summary": "This gene is part of a 500 kb inverted duplication on chromosome 5q13. This duplicated region contains at least four genes and repetitive elements which make it prone to rearrangements and deletions. The repetitiveness and complexity of the sequence have also caused difficulty in determining the organization of this genomic region. The telomeric and centromeric copies of this gene are nearly identical and encode the same protein. While mutations in the telomeric copy are associated with spinal muscular atrophy, mutations in this gene, the centromeric copy, do not lead to disease. This gene may be a modifier of disease caused by mutation in the telomeric copy. The critical sequence difference between the two genes is a single nucleotide in exon 7, which is thought to be an exon splice enhancer. Note that the nine exons of both the telomeric and centromeric copies are designated historically as exon 1, 2a, 2b, and 3-8. It is thought that gene conversion events may involve the two genes, leading to varying copy numbers of each gene. The full length protein encoded by this gene localizes to both the cytoplasm and the nucleus. Within the nucleus, the protein localizes to subnuclear bodies called gems which are found near coiled bodies containing high concentrations of small ribonucleoproteins (snRNPs). This protein forms heteromeric complexes with proteins such as SIP1 and GEMIN4, and also interacts with several proteins known to be involved in the biogenesis of snRNPs, such as hnRNP U protein and the small nucleolar RNA binding protein. Four transcript variants encoding distinct isoforms have been described. [provided by RefSeq, Sep 2008]",
+        "chrstart": 70049522,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "5",
+        "geneweight": 29795,
+        "description": "survival of motor neuron 2, centromeric",
+        "genomicinfo": [
+          {
+            "chrloc": "5",
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "exoncount": 11
+          }
+        ],
+        "maplocation": "5q13.2",
+        "locationhist": [
+          {
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 321546,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 809288,
+            "chrstart": 850684,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 70791125,
+            "chrstart": 70837820,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 321546,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 809288,
+            "chrstart": 850684,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 70791125,
+            "chrstart": 70837820,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 321546,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 809288,
+            "chrstart": 850684,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 70791125,
+            "chrstart": 70837820,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 321546,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 809288,
+            "chrstart": 850684,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 70791125,
+            "chrstart": 70837820,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 321546,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 809288,
+            "chrstart": 850684,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 70791125,
+            "chrstart": 70837820,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 70090527,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 302935,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 822608,
+            "chrstart": 850684,
+            "chraccver": "NW_025791777.1",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 70809743,
+            "chrstart": 70837820,
+            "chraccver": "NC_060929.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 70077594,
+            "chrstart": 70049522,
+            "chraccver": "NC_000005.10",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 302935,
+            "chrstart": 274861,
+            "chraccver": "NT_187651.1",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 69373421,
+            "chrstart": 69345349,
+            "chraccver": "NC_000005.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 69373421,
+            "chrstart": 69345349,
+            "chraccver": "NC_000005.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 69373421,
+            "chrstart": 69345349,
+            "chraccver": "NC_000005.9",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 69336092,
+            "chrstart": 69364166,
+            "chraccver": "NC_018916.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 80,
+            "chrstart": 6002,
+            "chraccver": "NW_001841229.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "BCD541, C-BCD541, GEMIN1, SMNC, TDRD16B",
+        "geneticsource": "genomic",
+        "nomenclaturename": "survival of motor neuron 2, centromeric",
+        "otherdesignations": "survival motor neuron protein|component of gems 1|gemin-1|tudor domain containing 16B",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "SMN2"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:24.452Z",
+      "updated_at": "2026-11-25T09:36:24.452Z",
+      "cytoband": "5q13.2"
+    },
+    {
+      "id": "897d1c31-aa67-4438-8787-149b4fcb0604",
+      "symbol": "CFTR",
+      "name": "CF transmembrane conductance regulator",
+      "entrez_gene_id": "1080",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "7",
+      "cytogenetic_location": "7q31.2",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. The encoded protein functions as a chloride channel, making it unique among members of this protein family, and controls ion and water secretion and absorption in epithelial tissues. Channel activation is mediated by cycles of regulatory domain phosphorylation, ATP-binding by the nucleotide-binding domains, and ATP hydrolysis. Mutations in this gene cause cystic fibrosis, the most common lethal genetic disorder in populations of Northern European descent. The most frequently occurring mutation in cystic fibrosis, DeltaF508, results in impaired folding and trafficking of the encoded protein. Multiple pseudogenes have been identified in the human genome. [provided by RefSeq, Aug 2017]",
+      "source_record": {
+        "mim": [
+          "602421"
+        ],
+        "uid": "1080",
+        "name": "CFTR",
+        "status": "",
+        "chrsort": "07",
+        "summary": "This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. The encoded protein functions as a chloride channel, making it unique among members of this protein family, and controls ion and water secretion and absorption in epithelial tissues. Channel activation is mediated by cycles of regulatory domain phosphorylation, ATP-binding by the nucleotide-binding domains, and ATP hydrolysis. Mutations in this gene cause cystic fibrosis, the most common lethal genetic disorder in populations of Northern European descent. The most frequently occurring mutation in cystic fibrosis, DeltaF508, results in impaired folding and trafficking of the encoded protein. Multiple pseudogenes have been identified in the human genome. [provided by RefSeq, Aug 2017]",
+        "chrstart": 117480024,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "7",
+        "geneweight": 409247,
+        "description": "CF transmembrane conductance regulator",
+        "genomicinfo": [
+          {
+            "chrloc": "7",
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "exoncount": 27
+          }
+        ],
+        "maplocation": "7q31.2",
+        "locationhist": [
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 118984025,
+            "chrstart": 118795360,
+            "chraccver": "NC_060931.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 118984025,
+            "chrstart": 118795360,
+            "chraccver": "NC_060931.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 118984025,
+            "chrstart": 118795360,
+            "chraccver": "NC_060931.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 118984025,
+            "chrstart": 118795360,
+            "chraccver": "NC_060931.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 118984025,
+            "chrstart": 118795360,
+            "chraccver": "NC_060931.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 118984025,
+            "chrstart": 118795360,
+            "chraccver": "NC_060931.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 117668664,
+            "chrstart": 117480024,
+            "chraccver": "NC_000007.14",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 117308718,
+            "chrstart": 117120078,
+            "chraccver": "NC_000007.13",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 117308718,
+            "chrstart": 117120078,
+            "chraccver": "NC_000007.13",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 117308718,
+            "chrstart": 117120016,
+            "chraccver": "NC_000007.13",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 116704153,
+            "chrstart": 116515450,
+            "chraccver": "AC_000068.1",
+            "assemblyaccver": "GCF_000002135.2",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 111674188,
+            "chrstart": 111485639,
+            "chraccver": "AC_000139.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 117242162,
+            "chrstart": 117053368,
+            "chraccver": "NC_018918.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "ABC35, ABCC7, CF, CFTR/MRP, MRP7, TNR-CFTR, dJ760C5.1",
+        "geneticsource": "genomic",
+        "nomenclaturename": "CF transmembrane conductance regulator",
+        "otherdesignations": "cystic fibrosis transmembrane conductance regulator|cAMP-dependent chloride channel|channel conductance-controlling ATPase|cystic fibrosis transmembrane conductance regulating|cystic fibrosis transmembrane conductance regulator (ATP-binding cassette sub-family C, member 7)",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "CFTR"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:34.382Z",
+      "updated_at": "2026-11-25T09:36:34.382Z",
+      "cytoband": "7q31.2"
+    },
+    {
+      "id": "6463285d-6279-4a7a-a37e-799896d614f1",
+      "symbol": "BRCA1",
+      "name": "BRCA1 DNA repair associated",
+      "entrez_gene_id": "672",
+      "hgnc_id": null,
+      "ensembl_gene_id": null,
+      "omim_id": null,
+      "chromosome": "17",
+      "cytogenetic_location": "17q21.31",
+      "genomic_coordinates": {},
+      "gene_type": "protein-coding",
+      "summary": "This gene encodes a 190 kD nuclear phosphoprotein that plays a role in maintaining genomic stability, and it also acts as a tumor suppressor. The BRCA1 gene contains 22 exons spanning about 110 kb of DNA. The encoded protein combines with other tumor suppressors, DNA damage sensors, and signal transducers to form a large multi-subunit protein complex known as the BRCA1-associated genome surveillance complex (BASC). This gene product associates with RNA polymerase II, and through the C-terminal domain, also interacts with histone deacetylase complexes. This protein thus plays a role in transcription, DNA repair of double-stranded breaks, and recombination. Mutations in this gene are responsible for approximately 40% of inherited breast cancers and more than 80% of inherited breast and ovarian cancers. Alternative splicing plays a role in modulating the subcellular localization and physiological function of this gene. Many alternatively spliced transcript variants, some of which are disease-associated mutations, have been described for this gene, but the full-length natures of only some of these variants has been described. A related pseudogene, which is also located on chromosome 17, has been identified. [provided by RefSeq, May 2020]",
+      "source_record": {
+        "mim": [
+          "113705"
+        ],
+        "uid": "672",
+        "name": "BRCA1",
+        "status": "",
+        "chrsort": "17",
+        "summary": "This gene encodes a 190 kD nuclear phosphoprotein that plays a role in maintaining genomic stability, and it also acts as a tumor suppressor. The BRCA1 gene contains 22 exons spanning about 110 kb of DNA. The encoded protein combines with other tumor suppressors, DNA damage sensors, and signal transducers to form a large multi-subunit protein complex known as the BRCA1-associated genome surveillance complex (BASC). This gene product associates with RNA polymerase II, and through the C-terminal domain, also interacts with histone deacetylase complexes. This protein thus plays a role in transcription, DNA repair of double-stranded breaks, and recombination. Mutations in this gene are responsible for approximately 40% of inherited breast cancers and more than 80% of inherited breast and ovarian cancers. Alternative splicing plays a role in modulating the subcellular localization and physiological function of this gene. Many alternatively spliced transcript variants, some of which are disease-associated mutations, have been described for this gene, but the full-length natures of only some of these variants has been described. A related pseudogene, which is also located on chromosome 17, has been identified. [provided by RefSeq, May 2020]",
+        "chrstart": 43044294,
+        "organism": {
+          "taxid": 9606,
+          "commonname": "human",
+          "scientificname": "Homo sapiens"
+        },
+        "currentid": "",
+        "chromosome": "17",
+        "geneweight": 284308,
+        "description": "BRCA1 DNA repair associated",
+        "genomicinfo": [
+          {
+            "chrloc": "17",
+            "chrstop": 43044294,
+            "chrstart": 43170326,
+            "chraccver": "NC_000017.11",
+            "exoncount": 31
+          }
+        ],
+        "maplocation": "17q21.31",
+        "locationhist": [
+          {
+            "chrstop": 43044294,
+            "chrstart": 43170326,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 43902856,
+            "chrstart": 44029083,
+            "chraccver": "NC_060941.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2026_11"
+          },
+          {
+            "chrstop": 43044294,
+            "chrstart": 43170326,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 43902856,
+            "chrstart": 44029083,
+            "chraccver": "NC_060941.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2025_08"
+          },
+          {
+            "chrstop": 43044294,
+            "chrstart": 43170326,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 43902856,
+            "chrstart": 44029083,
+            "chraccver": "NC_060941.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2024_08"
+          },
+          {
+            "chrstop": 43044294,
+            "chrstart": 43170326,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 43902856,
+            "chrstart": 44029083,
+            "chraccver": "NC_060941.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_10"
+          },
+          {
+            "chrstop": 43044294,
+            "chrstart": 43170326,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 43902856,
+            "chrstart": 44029083,
+            "chraccver": "NC_060941.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "RS_2023_03"
+          },
+          {
+            "chrstop": 43044294,
+            "chrstart": 43125363,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.40",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 43902856,
+            "chrstart": 43983995,
+            "chraccver": "NC_060941.1",
+            "assemblyaccver": "GCF_009914755.1",
+            "annotationrelease": "110"
+          },
+          {
+            "chrstop": 43044294,
+            "chrstart": 43125363,
+            "chraccver": "NC_000017.11",
+            "assemblyaccver": "GCF_000001405.39",
+            "annotationrelease": "109.20211119"
+          },
+          {
+            "chrstop": 41196311,
+            "chrstart": 41322343,
+            "chraccver": "NC_000017.10",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "RS_2024_09"
+          },
+          {
+            "chrstop": 41196311,
+            "chrstart": 41277380,
+            "chraccver": "NC_000017.10",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105.20220307"
+          },
+          {
+            "chrstop": 41196311,
+            "chrstart": 41277499,
+            "chraccver": "NC_000017.10",
+            "assemblyaccver": "GCF_000001405.25",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 36962662,
+            "chrstart": 37043808,
+            "chraccver": "AC_000149.1",
+            "assemblyaccver": "GCF_000002125.1",
+            "annotationrelease": "105"
+          },
+          {
+            "chrstop": 41431850,
+            "chrstart": 41513017,
+            "chraccver": "NC_018928.2",
+            "assemblyaccver": "GCF_000306695.2",
+            "annotationrelease": "105"
+          }
+        ],
+        "otheraliases": "BRCAI, BRCC1, BROVCA1, FANCS, IRIS, PNCA4, PPP1R53, PSCP, RNF53",
+        "geneticsource": "genomic",
+        "nomenclaturename": "BRCA1 DNA repair associated",
+        "otherdesignations": "breast cancer type 1 susceptibility protein|BRCA1/BRCA2-containing complex, subunit 1|Fanconi anemia, complementation group S|RING finger protein 53|breast and ovarian cancer susceptibility protein 1|breast cancer 1, early onset|early onset breast cancer 1|protein phosphatase 1, regulatory subunit 53",
+        "nomenclaturestatus": "Official",
+        "nomenclaturesymbol": "BRCA1"
+      },
+      "curated_notes": null,
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:43.729Z",
+      "updated_at": "2026-11-25T09:36:43.729Z",
+      "cytoband": "17q21.31"
+    }
+  ],
+  "variants": [
+    {
+      "id": "2fcf0f3e-9c81-4964-aff1-fb9d83b88302",
+      "clinvar_vcv": "VCV000015408",
+      "preferred_name": "NM_000518.5(HBB):c.93-21G>A",
+      "hgvs_cdna": "c.93-21G>A",
+      "hgvs_protein": "p.?",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs35004220",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "intron variant / splice site creating",
+      "assembly": "GRCh38",
+      "chromosome": "11",
+      "position_vcf": "5226919",
+      "ref_allele": "G",
+      "alt_allele": "A",
+      "source_record": {
+        "dbsnpId": "rs35004220",
+        "hgvsCdna": "c.93-21G>A",
+        "altAllele": "A",
+        "goldStars": 2,
+        "refAllele": "G",
+        "assertions": [
+          {
+            "rcv": "RCV000017042",
+            "scv": "SCV000056123",
+            "criteria": "ACMG/AMP Guidelines 2015",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          },
+          {
+            "rcv": "RCV000017042",
+            "scv": "SCV000789123",
+            "criteria": "Expert panel curated review",
+            "submitter": "GeneReviews",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "11",
+        "clinvarVcv": "VCV000015408",
+        "geneSymbol": "HBB",
+        "hgvsProtein": "p.?",
+        "positionVcf": 5226919,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000518.5(HBB):c.93-21G>A",
+        "reviewStatusClinvar": "criteria provided, multiple submitters, no conflicts",
+        "molecularConsequence": "intron variant / splice site creating"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:35:55.470Z",
+      "updated_at": "2026-11-25T09:35:55.470Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "criteria provided, multiple submitters, no conflicts",
+      "gold_stars": 2
+    },
+    {
+      "id": "69614ef3-5c1d-494d-af35-b1050c3fb47c",
+      "clinvar_vcv": "VCV000015410",
+      "preferred_name": "NM_000518.5(HBB):c.118C>T (p.Gln40Ter)",
+      "hgvs_cdna": "c.118C>T",
+      "hgvs_protein": "p.Gln40Ter",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs11549407",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "stop gained / nonsense",
+      "assembly": "GRCh38",
+      "chromosome": "11",
+      "position_vcf": "5226894",
+      "ref_allele": "C",
+      "alt_allele": "T",
+      "source_record": {
+        "dbsnpId": "rs11549407",
+        "hgvsCdna": "c.118C>T",
+        "altAllele": "T",
+        "goldStars": 3,
+        "refAllele": "C",
+        "assertions": [
+          {
+            "rcv": "RCV000017044",
+            "scv": "SCV000056125",
+            "criteria": "ACMG/AMP Guidelines 2015; PVS1, PS3, PM2",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "11",
+        "clinvarVcv": "VCV000015410",
+        "geneSymbol": "HBB",
+        "hgvsProtein": "p.Gln40Ter",
+        "positionVcf": 5226894,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000518.5(HBB):c.118C>T (p.Gln40Ter)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "stop gained / nonsense"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:35:57.153Z",
+      "updated_at": "2026-11-25T09:35:57.153Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "33c77d60-87ca-40a2-a37e-758c52877439",
+      "clinvar_vcv": "VCV000015405",
+      "preferred_name": "NM_000518.5(HBB):c.79G>A (p.Glu27Lys)",
+      "hgvs_cdna": "c.79G>A",
+      "hgvs_protein": "p.Glu27Lys",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs33950507",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "missense variant / aberrant splice site",
+      "assembly": "GRCh38",
+      "chromosome": "11",
+      "position_vcf": "5226933",
+      "ref_allele": "G",
+      "alt_allele": "A",
+      "source_record": {
+        "dbsnpId": "rs33950507",
+        "hgvsCdna": "c.79G>A",
+        "altAllele": "A",
+        "goldStars": 3,
+        "refAllele": "G",
+        "assertions": [
+          {
+            "rcv": "RCV000017039",
+            "scv": "SCV000056120",
+            "criteria": "Hb E variant produces both abnormal hemoglobin and alternative splicing.",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "11",
+        "clinvarVcv": "VCV000015405",
+        "geneSymbol": "HBB",
+        "hgvsProtein": "p.Glu27Lys",
+        "positionVcf": 5226933,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000518.5(HBB):c.79G>A (p.Glu27Lys)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "missense variant / aberrant splice site"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:35:58.553Z",
+      "updated_at": "2026-11-25T09:35:58.553Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "fc93f417-0ff6-4d39-9ad8-2649c863696c",
+      "clinvar_vcv": "VCV000015383",
+      "preferred_name": "NM_000517.6(HBA2):c.427T>C (p.Ter143Gln)",
+      "hgvs_cdna": "c.427T>C",
+      "hgvs_protein": "p.Ter143Gln",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs41464951",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "stop lost / elongating",
+      "assembly": "GRCh38",
+      "chromosome": "16",
+      "position_vcf": "173549",
+      "ref_allele": "T",
+      "alt_allele": "C",
+      "source_record": {
+        "dbsnpId": "rs41464951",
+        "hgvsCdna": "c.427T>C",
+        "altAllele": "C",
+        "goldStars": 2,
+        "refAllele": "T",
+        "assertions": [
+          {
+            "rcv": "RCV000017017",
+            "scv": "SCV000056098",
+            "criteria": "Hemoglobin Constant Spring mutation leading to unstable mRNA and non-deletional alpha-thalassemia.",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "16",
+        "clinvarVcv": "VCV000015383",
+        "geneSymbol": "HBA2",
+        "hgvsProtein": "p.Ter143Gln",
+        "positionVcf": 173549,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000517.6(HBA2):c.427T>C (p.Ter143Gln)",
+        "reviewStatusClinvar": "criteria provided, multiple submitters, no conflicts",
+        "molecularConsequence": "stop lost / elongating"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:08.575Z",
+      "updated_at": "2026-11-25T09:36:08.575Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "criteria provided, multiple submitters, no conflicts",
+      "gold_stars": 2
+    },
+    {
+      "id": "ac12d5f7-ee4e-44d4-b903-52e86f0d4307",
+      "clinvar_vcv": "VCV000015387",
+      "preferred_name": "NC_000016.10:g.215000_235000del (--SEA)",
+      "hgvs_cdna": "g.215000_235000del",
+      "hgvs_protein": "p.?",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs528876402",
+      "variant_type": "deletion",
+      "molecular_consequence": "large structural deletion spanning HBA2 and HBA1",
+      "assembly": "GRCh38",
+      "chromosome": "16",
+      "position_vcf": "215000",
+      "ref_allele": "N",
+      "alt_allele": "<DEL>",
+      "source_record": {
+        "dbsnpId": "rs528876402",
+        "hgvsCdna": "g.215000_235000del",
+        "altAllele": "<DEL>",
+        "goldStars": 3,
+        "refAllele": "N",
+        "assertions": [
+          {
+            "rcv": "RCV000017021",
+            "scv": "SCV000056102",
+            "criteria": "Southeast Asian double alpha-globin deletion; homozygous state causes Hb Bart hydrops fetalis.",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "16",
+        "clinvarVcv": "VCV000015387",
+        "geneSymbol": "HBA1",
+        "hgvsProtein": "p.?",
+        "positionVcf": 215000,
+        "variantType": "deletion",
+        "significance": "Pathogenic",
+        "preferredName": "NC_000016.10:g.215000_235000del (--SEA)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "large structural deletion spanning HBA2 and HBA1"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:10.079Z",
+      "updated_at": "2026-11-25T09:36:10.079Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "ad2eae72-03ad-4e89-b870-3e512569a457",
+      "clinvar_vcv": "VCV000015170",
+      "preferred_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+      "hgvs_cdna": "c.20A>T",
+      "hgvs_protein": "p.Glu7Val",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs334",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "missense variant",
+      "assembly": "GRCh38",
+      "chromosome": "11",
+      "position_vcf": "5227002",
+      "ref_allele": "A",
+      "alt_allele": "T",
+      "source_record": {
+        "dbsnpId": "rs334",
+        "hgvsCdna": "c.20A>T",
+        "altAllele": "T",
+        "goldStars": 3,
+        "refAllele": "A",
+        "assertions": [
+          {
+            "rcv": "RCV000016804",
+            "scv": "SCV000055885",
+            "criteria": "ACMG/AMP Guidelines; classic Hb S allele responsible for sickle cell disorders.",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "11",
+        "clinvarVcv": "VCV000015170",
+        "geneSymbol": "HBB",
+        "hgvsProtein": "p.Glu7Val",
+        "positionVcf": 5227002,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "missense variant"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:15.974Z",
+      "updated_at": "2026-11-25T09:36:15.974Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "b1a2a4da-81e9-4df7-a400-385dceaba948",
+      "clinvar_vcv": "VCV000015173",
+      "preferred_name": "NM_000518.5(HBB):c.20A>G (p.Glu7Gly)",
+      "hgvs_cdna": "c.20A>G",
+      "hgvs_protein": "p.Glu7Gly",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs33930165",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "missense variant",
+      "assembly": "GRCh38",
+      "chromosome": "11",
+      "position_vcf": "5227002",
+      "ref_allele": "A",
+      "alt_allele": "G",
+      "source_record": {
+        "dbsnpId": "rs33930165",
+        "hgvsCdna": "c.20A>G",
+        "altAllele": "G",
+        "goldStars": 3,
+        "refAllele": "A",
+        "assertions": [
+          {
+            "rcv": "RCV000016807",
+            "scv": "SCV000055888",
+            "criteria": "Hb C allele causing mild hemolytic anemia; compound heterozygosity with Hb S causes Hb SC disease.",
+            "submitter": "Hemoglobinopathy Variant Curation Expert Panel",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "11",
+        "clinvarVcv": "VCV000015173",
+        "geneSymbol": "HBB",
+        "hgvsProtein": "p.Glu7Gly",
+        "positionVcf": 5227002,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000518.5(HBB):c.20A>G (p.Glu7Gly)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "missense variant"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:17.378Z",
+      "updated_at": "2026-11-25T09:36:17.378Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "bf9ee104-0d36-4ed6-aac8-d4556a09aa16",
+      "clinvar_vcv": "VCV000029780",
+      "preferred_name": "NM_017411.4(SMN2):c.859G>C (p.Gly287Arg)",
+      "hgvs_cdna": "c.859G>C",
+      "hgvs_protein": "p.Gly287Arg",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs121909192",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "missense variant / splicing enhancer",
+      "assembly": "GRCh38",
+      "chromosome": "5",
+      "position_vcf": "70049444",
+      "ref_allele": "G",
+      "alt_allele": "C",
+      "source_record": {
+        "dbsnpId": "rs121909192",
+        "hgvsCdna": "c.859G>C",
+        "altAllele": "C",
+        "goldStars": 2,
+        "refAllele": "G",
+        "assertions": [
+          {
+            "rcv": "RCV000032990",
+            "scv": "SCV000109123",
+            "criteria": "Promotes exon 7 inclusion in SMN2 transcripts, significantly mitigating SMA phenotype.",
+            "submitter": "Invitae",
+            "significance": "Protective / Modifier"
+          }
+        ],
+        "chromosome": "5",
+        "clinvarVcv": "VCV000029780",
+        "geneSymbol": "SMN2",
+        "hgvsProtein": "p.Gly287Arg",
+        "positionVcf": 70049444,
+        "variantType": "single nucleotide variant",
+        "significance": "Protective / Disease Modifier",
+        "preferredName": "NM_017411.4(SMN2):c.859G>C (p.Gly287Arg)",
+        "reviewStatusClinvar": "criteria provided, multiple submitters, no conflicts",
+        "molecularConsequence": "missense variant / splicing enhancer"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:25.015Z",
+      "updated_at": "2026-11-25T09:36:25.015Z",
+      "clinical_significance": "Protective / Disease Modifier",
+      "review_status_clinvar": "criteria provided, multiple submitters, no conflicts",
+      "gold_stars": 2
+    },
+    {
+      "id": "54fca88a-93ab-4395-a0d5-8e6d6d79578a",
+      "clinvar_vcv": "VCV000015147",
+      "preferred_name": "NG_008691.1:g.27134T>G (SMN1 intron 7)",
+      "hgvs_cdna": "g.27134T>G",
+      "hgvs_protein": "p.?",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs143838139",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "intron variant / 2+0 modifier",
+      "assembly": "GRCh38",
+      "chromosome": "5",
+      "position_vcf": "70949444",
+      "ref_allele": "T",
+      "alt_allele": "G",
+      "source_record": {
+        "dbsnpId": "rs143838139",
+        "hgvsCdna": "g.27134T>G",
+        "altAllele": "G",
+        "goldStars": 1,
+        "refAllele": "T",
+        "assertions": [
+          {
+            "rcv": "RCV000016781",
+            "scv": "SCV000055862",
+            "criteria": "Associated with duplication of SMN1 on a single chromosome (2+0 silent carrier state).",
+            "submitter": "Quest Diagnostics",
+            "significance": "Modifier"
+          }
+        ],
+        "chromosome": "5",
+        "clinvarVcv": "VCV000015147",
+        "geneSymbol": "SMN1",
+        "hgvsProtein": "p.?",
+        "positionVcf": 70949444,
+        "variantType": "single nucleotide variant",
+        "significance": "Likely pathogenic / Modifier",
+        "preferredName": "NG_008691.1:g.27134T>G (SMN1 intron 7)",
+        "reviewStatusClinvar": "criteria provided, single submitter",
+        "molecularConsequence": "intron variant / 2+0 modifier"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:26.591Z",
+      "updated_at": "2026-11-25T09:36:26.591Z",
+      "clinical_significance": "Likely pathogenic / Modifier",
+      "review_status_clinvar": "criteria provided, single submitter",
+      "gold_stars": 1
+    },
+    {
+      "id": "a416545e-90d5-4875-9828-7196d9c968af",
+      "clinvar_vcv": "VCV000007105",
+      "preferred_name": "NM_000492.4(CFTR):c.1521_1523delCTT (p.Phe508del)",
+      "hgvs_cdna": "c.1521_1523delCTT",
+      "hgvs_protein": "p.Phe508del",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs113993960",
+      "variant_type": "deletion",
+      "molecular_consequence": "inframe deletion",
+      "assembly": "GRCh38",
+      "chromosome": "7",
+      "position_vcf": "117559590",
+      "ref_allele": "ATCT",
+      "alt_allele": "A",
+      "source_record": {
+        "dbsnpId": "rs113993960",
+        "hgvsCdna": "c.1521_1523delCTT",
+        "altAllele": "A",
+        "goldStars": 3,
+        "refAllele": "ATCT",
+        "assertions": [
+          {
+            "rcv": "RCV000007800",
+            "scv": "SCV000030101",
+            "criteria": "Classic Class II trafficking defect mutation accounting for approximately 70% of CF alleles worldwide.",
+            "submitter": "CFTR2 Project",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "7",
+        "clinvarVcv": "VCV000007105",
+        "geneSymbol": "CFTR",
+        "hgvsProtein": "p.Phe508del",
+        "positionVcf": 117559590,
+        "variantType": "deletion",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000492.4(CFTR):c.1521_1523delCTT (p.Phe508del)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "inframe deletion"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:34.993Z",
+      "updated_at": "2026-11-25T09:36:34.993Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "05028740-b267-4150-a6da-dd4dd54eb24f",
+      "clinvar_vcv": "VCV000007108",
+      "preferred_name": "NM_000492.4(CFTR):c.1624G>T (p.Gly542Ter)",
+      "hgvs_cdna": "c.1624G>T",
+      "hgvs_protein": "p.Gly542Ter",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs121908745",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "stop gained / nonsense",
+      "assembly": "GRCh38",
+      "chromosome": "7",
+      "position_vcf": "117565342",
+      "ref_allele": "G",
+      "alt_allele": "T",
+      "source_record": {
+        "dbsnpId": "rs121908745",
+        "hgvsCdna": "c.1624G>T",
+        "altAllele": "T",
+        "goldStars": 3,
+        "refAllele": "G",
+        "assertions": [
+          {
+            "rcv": "RCV000007803",
+            "scv": "SCV000030104",
+            "criteria": "Class I nonsense mutation causing premature translation termination and severe CF phenotype.",
+            "submitter": "CFTR2 Project",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "7",
+        "clinvarVcv": "VCV000007108",
+        "geneSymbol": "CFTR",
+        "hgvsProtein": "p.Gly542Ter",
+        "positionVcf": 117565342,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000492.4(CFTR):c.1624G>T (p.Gly542Ter)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "stop gained / nonsense"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:36.426Z",
+      "updated_at": "2026-11-25T09:36:36.426Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "c5827bc9-02cb-4569-806f-a3e0edfc5e8e",
+      "clinvar_vcv": "VCV000007109",
+      "preferred_name": "NM_000492.4(CFTR):c.1652G>A (p.Gly551Asp)",
+      "hgvs_cdna": "c.1652G>A",
+      "hgvs_protein": "p.Gly551Asp",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs75527207",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "missense variant / gating defect",
+      "assembly": "GRCh38",
+      "chromosome": "7",
+      "position_vcf": "117565370",
+      "ref_allele": "G",
+      "alt_allele": "A",
+      "source_record": {
+        "dbsnpId": "rs75527207",
+        "hgvsCdna": "c.1652G>A",
+        "altAllele": "A",
+        "goldStars": 3,
+        "refAllele": "G",
+        "assertions": [
+          {
+            "rcv": "RCV000007804",
+            "scv": "SCV000030105",
+            "criteria": "Class III gating defect mutation responsive to CFTR potentiator therapies (ivacaftor).",
+            "submitter": "CFTR2 Project",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "7",
+        "clinvarVcv": "VCV000007109",
+        "geneSymbol": "CFTR",
+        "hgvsProtein": "p.Gly551Asp",
+        "positionVcf": 117565370,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_000492.4(CFTR):c.1652G>A (p.Gly551Asp)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "missense variant / gating defect"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:37.852Z",
+      "updated_at": "2026-11-25T09:36:37.852Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "9b3d4b06-475f-429e-ac53-a5d33ccf0b28",
+      "clinvar_vcv": "VCV000017658",
+      "preferred_name": "NM_007294.4(BRCA1):c.68_69delAG (p.Glu23fs)",
+      "hgvs_cdna": "c.68_69delAG",
+      "hgvs_protein": "p.Glu23fs",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs386833395",
+      "variant_type": "deletion",
+      "molecular_consequence": "frameshift variant",
+      "assembly": "GRCh38",
+      "chromosome": "17",
+      "position_vcf": "43124030",
+      "ref_allele": "GAG",
+      "alt_allele": "G",
+      "source_record": {
+        "dbsnpId": "rs386833395",
+        "hgvsCdna": "c.68_69delAG",
+        "altAllele": "G",
+        "goldStars": 3,
+        "refAllele": "GAG",
+        "assertions": [
+          {
+            "rcv": "RCV000019318",
+            "scv": "SCV000068102",
+            "criteria": "Classic 185delAG Ashkenazi Jewish founder mutation; causes premature protein truncation.",
+            "submitter": "ENIGMA (Evidence-based Network for the Interpretation of Germline Mutant Alleles)",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "17",
+        "clinvarVcv": "VCV000017658",
+        "geneSymbol": "BRCA1",
+        "hgvsProtein": "p.Glu23fs",
+        "positionVcf": 43124030,
+        "variantType": "deletion",
+        "significance": "Pathogenic",
+        "preferredName": "NM_007294.4(BRCA1):c.68_69delAG (p.Glu23fs)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "frameshift variant"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:44.291Z",
+      "updated_at": "2026-11-25T09:36:44.291Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "86a2d51d-a41f-4682-8bac-73b1ebea1b44",
+      "clinvar_vcv": "VCV000017677",
+      "preferred_name": "NM_007294.4(BRCA1):c.5266dupC (p.Gln1756fs)",
+      "hgvs_cdna": "c.5266dupC",
+      "hgvs_protein": "p.Gln1756fs",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs80357906",
+      "variant_type": "duplication",
+      "molecular_consequence": "frameshift variant",
+      "assembly": "GRCh38",
+      "chromosome": "17",
+      "position_vcf": "43057110",
+      "ref_allele": "C",
+      "alt_allele": "CC",
+      "source_record": {
+        "dbsnpId": "rs80357906",
+        "hgvsCdna": "c.5266dupC",
+        "altAllele": "CC",
+        "goldStars": 3,
+        "refAllele": "C",
+        "assertions": [
+          {
+            "rcv": "RCV000019337",
+            "scv": "SCV000068121",
+            "criteria": "Classic 5382insC founder mutation; results in loss of BRCT tandem repeats.",
+            "submitter": "ENIGMA",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "17",
+        "clinvarVcv": "VCV000017677",
+        "geneSymbol": "BRCA1",
+        "hgvsProtein": "p.Gln1756fs",
+        "positionVcf": 43057110,
+        "variantType": "duplication",
+        "significance": "Pathogenic",
+        "preferredName": "NM_007294.4(BRCA1):c.5266dupC (p.Gln1756fs)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "frameshift variant"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:45.790Z",
+      "updated_at": "2026-11-25T09:36:45.790Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    },
+    {
+      "id": "8fb9636b-9538-48a3-a3fd-2157ad63fb78",
+      "clinvar_vcv": "VCV000017660",
+      "preferred_name": "NM_007294.4(BRCA1):c.181T>G (p.Cys61Gly)",
+      "hgvs_cdna": "c.181T>G",
+      "hgvs_protein": "p.Cys61Gly",
+      "hgvs_genomic": null,
+      "dbsnp_id": "rs28897672",
+      "variant_type": "single nucleotide variant",
+      "molecular_consequence": "missense variant",
+      "assembly": "GRCh38",
+      "chromosome": "17",
+      "position_vcf": "43124017",
+      "ref_allele": "T",
+      "alt_allele": "G",
+      "source_record": {
+        "dbsnpId": "rs28897672",
+        "hgvsCdna": "c.181T>G",
+        "altAllele": "G",
+        "goldStars": 3,
+        "refAllele": "T",
+        "assertions": [
+          {
+            "rcv": "RCV000019320",
+            "scv": "SCV000068104",
+            "criteria": "Disrupts the zinc-binding RING domain required for BARD1 heterodimerization.",
+            "submitter": "ENIGMA",
+            "significance": "Pathogenic"
+          }
+        ],
+        "chromosome": "17",
+        "clinvarVcv": "VCV000017660",
+        "geneSymbol": "BRCA1",
+        "hgvsProtein": "p.Cys61Gly",
+        "positionVcf": 43124017,
+        "variantType": "single nucleotide variant",
+        "significance": "Pathogenic",
+        "preferredName": "NM_007294.4(BRCA1):c.181T>G (p.Cys61Gly)",
+        "reviewStatusClinvar": "reviewed by expert panel",
+        "molecularConsequence": "missense variant"
+      },
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-11-25T09:36:47.199Z",
+      "updated_at": "2026-11-25T09:36:47.199Z",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3
+    }
+  ],
+  "variant_clinical_assertions": [
+    {
+      "id": "918e250e-0b2e-4441-b450-a99ececa3795",
+      "variant_id": "2fcf0f3e-9c81-4964-aff1-fb9d83b88302",
+      "rcv_accession": "RCV000017042",
+      "scv_accession": "SCV000056123",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Beta-thalassemia",
+      "assertion_criteria": "ACMG/AMP Guidelines 2015",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:35:56.592Z"
+    },
+    {
+      "id": "21bcbc9a-099e-4a51-a118-01e878f15594",
+      "variant_id": "2fcf0f3e-9c81-4964-aff1-fb9d83b88302",
+      "rcv_accession": "RCV000017042",
+      "scv_accession": "SCV000789123",
+      "submitter_name": "GeneReviews",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Beta-thalassemia",
+      "assertion_criteria": "Expert panel curated review",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:35:56.869Z"
+    },
+    {
+      "id": "338e441a-6ad1-4fc7-9537-94d4ef2fa9e0",
+      "variant_id": "69614ef3-5c1d-494d-af35-b1050c3fb47c",
+      "rcv_accession": "RCV000017044",
+      "scv_accession": "SCV000056125",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Beta-thalassemia",
+      "assertion_criteria": "ACMG/AMP Guidelines 2015; PVS1, PS3, PM2",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:35:58.276Z"
+    },
+    {
+      "id": "c42d1868-38a6-4e26-9051-2aca8e68e829",
+      "variant_id": "33c77d60-87ca-40a2-a37e-758c52877439",
+      "rcv_accession": "RCV000017039",
+      "scv_accession": "SCV000056120",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Beta-thalassemia",
+      "assertion_criteria": "Hb E variant produces both abnormal hemoglobin and alternative splicing.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:35:59.670Z"
+    },
+    {
+      "id": "1f873986-8794-475d-a1f3-711a8c93f0a0",
+      "variant_id": "fc93f417-0ff6-4d39-9ad8-2649c863696c",
+      "rcv_accession": "RCV000017017",
+      "scv_accession": "SCV000056098",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Alpha-thalassemia",
+      "assertion_criteria": "Hemoglobin Constant Spring mutation leading to unstable mRNA and non-deletional alpha-thalassemia.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:09.802Z"
+    },
+    {
+      "id": "17103f8c-e54d-41b6-ad6f-be7ed74b48a5",
+      "variant_id": "ac12d5f7-ee4e-44d4-b903-52e86f0d4307",
+      "rcv_accession": "RCV000017021",
+      "scv_accession": "SCV000056102",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Alpha-thalassemia",
+      "assertion_criteria": "Southeast Asian double alpha-globin deletion; homozygous state causes Hb Bart hydrops fetalis.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:11.282Z"
+    },
+    {
+      "id": "0026bcc3-8d54-493d-bf60-745d0929d345",
+      "variant_id": "ad2eae72-03ad-4e89-b870-3e512569a457",
+      "rcv_accession": "RCV000016804",
+      "scv_accession": "SCV000055885",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Sickle Cell Disease / Sickle Cell Anemia",
+      "assertion_criteria": "ACMG/AMP Guidelines; classic Hb S allele responsible for sickle cell disorders.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:17.094Z"
+    },
+    {
+      "id": "fb8f4b46-00cb-4cee-8964-57764f553e8c",
+      "variant_id": "b1a2a4da-81e9-4df7-a400-385dceaba948",
+      "rcv_accession": "RCV000016807",
+      "scv_accession": "SCV000055888",
+      "submitter_name": "Hemoglobinopathy Variant Curation Expert Panel",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Sickle Cell Disease / Sickle Cell Anemia",
+      "assertion_criteria": "Hb C allele causing mild hemolytic anemia; compound heterozygosity with Hb S causes Hb SC disease.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:18.501Z"
+    },
+    {
+      "id": "87b093c1-e500-4f87-9d69-cc628b1245e8",
+      "variant_id": "bf9ee104-0d36-4ed6-aac8-d4556a09aa16",
+      "rcv_accession": "RCV000032990",
+      "scv_accession": "SCV000109123",
+      "submitter_name": "Invitae",
+      "clinical_significance": "Protective / Modifier",
+      "disease_name": "Spinal Muscular Atrophy, Types 1-4",
+      "assertion_criteria": "Promotes exon 7 inclusion in SMN2 transcripts, significantly mitigating SMA phenotype.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:26.236Z"
+    },
+    {
+      "id": "eb8bd91e-81f8-40e6-b8dd-c6dea58e5f19",
+      "variant_id": "54fca88a-93ab-4395-a0d5-8e6d6d79578a",
+      "rcv_accession": "RCV000016781",
+      "scv_accession": "SCV000055862",
+      "submitter_name": "Quest Diagnostics",
+      "clinical_significance": "Modifier",
+      "disease_name": "Spinal Muscular Atrophy, Types 1-4",
+      "assertion_criteria": "Associated with duplication of SMN1 on a single chromosome (2+0 silent carrier state).",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:27.793Z"
+    },
+    {
+      "id": "df7e83b9-51da-4a30-802b-4bfe8bc225b9",
+      "variant_id": "a416545e-90d5-4875-9828-7196d9c968af",
+      "rcv_accession": "RCV000007800",
+      "scv_accession": "SCV000030101",
+      "submitter_name": "CFTR2 Project",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Cystic Fibrosis",
+      "assertion_criteria": "Classic Class II trafficking defect mutation accounting for approximately 70% of CF alleles worldwide.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:36.138Z"
+    },
+    {
+      "id": "08d8846b-f56f-44fd-a3dd-01ef46579a91",
+      "variant_id": "05028740-b267-4150-a6da-dd4dd54eb24f",
+      "rcv_accession": "RCV000007803",
+      "scv_accession": "SCV000030104",
+      "submitter_name": "CFTR2 Project",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Cystic Fibrosis",
+      "assertion_criteria": "Class I nonsense mutation causing premature translation termination and severe CF phenotype.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:37.568Z"
+    },
+    {
+      "id": "ae80678b-0bd5-4594-84fb-fe6e40ed9286",
+      "variant_id": "c5827bc9-02cb-4569-806f-a3e0edfc5e8e",
+      "rcv_accession": "RCV000007804",
+      "scv_accession": "SCV000030105",
+      "submitter_name": "CFTR2 Project",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Cystic Fibrosis",
+      "assertion_criteria": "Class III gating defect mutation responsive to CFTR potentiator therapies (ivacaftor).",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:38.969Z"
+    },
+    {
+      "id": "d39d5bc9-ee3c-4bf9-8e76-100886ed0b0f",
+      "variant_id": "9b3d4b06-475f-429e-ac53-a5d33ccf0b28",
+      "rcv_accession": "RCV000019318",
+      "scv_accession": "SCV000068102",
+      "submitter_name": "ENIGMA (Evidence-based Network for the Interpretation of Germline Mutant Alleles)",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Hereditary Breast and Ovarian Cancer Syndrome (BRCA1-related)",
+      "assertion_criteria": "Classic 185delAG Ashkenazi Jewish founder mutation; causes premature protein truncation.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:45.513Z"
+    },
+    {
+      "id": "caf1be25-fd71-48db-a7af-418f7cc13c34",
+      "variant_id": "86a2d51d-a41f-4682-8bac-73b1ebea1b44",
+      "rcv_accession": "RCV000019337",
+      "scv_accession": "SCV000068121",
+      "submitter_name": "ENIGMA",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Hereditary Breast and Ovarian Cancer Syndrome (BRCA1-related)",
+      "assertion_criteria": "Classic 5382insC founder mutation; results in loss of BRCT tandem repeats.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:46.914Z"
+    },
+    {
+      "id": "2ed8875c-2b35-4d68-ac3f-e8cbf792614b",
+      "variant_id": "8fb9636b-9538-48a3-a3fd-2157ad63fb78",
+      "rcv_accession": "RCV000019320",
+      "scv_accession": "SCV000068104",
+      "submitter_name": "ENIGMA",
+      "clinical_significance": "Pathogenic",
+      "disease_name": "Hereditary Breast and Ovarian Cancer Syndrome (BRCA1-related)",
+      "assertion_criteria": "Disrupts the zinc-binding RING domain required for BARD1 heterodimerization.",
+      "date_last_evaluated": null,
+      "submission_date": null,
+      "review_status": null,
+      "citations": [],
+      "raw_assertion": {},
+      "created_at": "2026-11-25T09:36:48.319Z"
+    }
+  ],
+  "disease_gene_relationships": [
+    {
+      "id": "7c0b22b5-599a-47cf-92ae-07677da5dc60",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Primary causative gene for beta-thalassemia and sickle cell disease.",
+      "created_at": "2026-11-25T09:35:55.181Z"
+    },
+    {
+      "id": "9b1670d7-918c-4107-8575-5626cf6a79b2",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "gene_id": "fa32a5f6-f2fb-48b3-9d9c-5e1ad6afb0df",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Alpha-1 globin gene on 16p13.3.",
+      "created_at": "2026-11-25T09:36:06.501Z"
+    },
+    {
+      "id": "77ff0721-21ca-46d2-8a87-074c4f91c430",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "gene_id": "e6a05f02-4145-4c80-b718-2b00c69f9c9b",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Alpha-2 globin gene on 16p13.3, expressing approximately 2-3x more mRNA than HBA1.",
+      "created_at": "2026-11-25T09:36:08.093Z"
+    },
+    {
+      "id": "477ab7f4-3893-4219-87b9-351a1652f03f",
+      "disease_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Glu7Val (Hb S) pathogenic mutation in exon 1.",
+      "created_at": "2026-11-25T09:36:15.694Z"
+    },
+    {
+      "id": "a67ffd99-7682-4794-bce2-69ea67b8a63f",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "gene_id": "f90d5376-74a7-4fbc-8d19-7cc5bdc8f292",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Survival motor neuron 1; telomeric copy required for motor neuron survival.",
+      "created_at": "2026-11-25T09:36:23.239Z"
+    },
+    {
+      "id": "f9769f8f-b134-4411-a7c2-43419d3305f2",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "gene_id": "ed40b46c-822f-4eb5-9c18-d52e6eeed59d",
+      "relationship_type": "modifier",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Centromeric paralog with c.840C>T exon 7 splice variation; copy number modifies clinical severity.",
+      "created_at": "2026-11-25T09:36:24.730Z"
+    },
+    {
+      "id": "a4908290-ffdc-4ba2-bb3e-e3bd2b55294d",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "gene_id": "897d1c31-aa67-4438-8787-149b4fcb0604",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal recessive",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "Cystic fibrosis transmembrane conductance regulator on 7q31.2.",
+      "created_at": "2026-11-25T09:36:34.658Z"
+    },
+    {
+      "id": "44a6f456-0afe-45e7-a63f-85225127333b",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "gene_id": "6463285d-6279-4a7a-a37e-799896d614f1",
+      "relationship_type": "causative",
+      "evidence_level": "Definitive",
+      "inheritance_pattern": "Autosomal dominant",
+      "source_id": "ncbi_gene",
+      "source_evidence": {},
+      "curator_notes": "BRCA1 DNA repair associated; tumor suppressor gene involved in homologous recombination on 17q21.31.",
+      "created_at": "2026-11-25T09:36:44.005Z"
+    }
+  ],
+  "variant_gene_relationships": [
+    {
+      "id": "87b68e9f-0ed2-435d-9f49-3570538d9e56",
+      "variant_id": "2fcf0f3e-9c81-4964-aff1-fb9d83b88302",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "intron variant / splice site creating",
+      "created_at": "2026-11-25T09:35:56.029Z"
+    },
+    {
+      "id": "f422205b-5e16-4b56-8b71-100957036dbf",
+      "variant_id": "69614ef3-5c1d-494d-af35-b1050c3fb47c",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "stop gained / nonsense",
+      "created_at": "2026-11-25T09:35:57.715Z"
+    },
+    {
+      "id": "b05bfd6a-59d7-475c-a24a-5e79e2c8407c",
+      "variant_id": "33c77d60-87ca-40a2-a37e-758c52877439",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "missense variant / aberrant splice site",
+      "created_at": "2026-11-25T09:35:59.111Z"
+    },
+    {
+      "id": "47e2575c-18b5-4d35-90b5-c2ce7eac036d",
+      "variant_id": "fc93f417-0ff6-4d39-9ad8-2649c863696c",
+      "gene_id": "e6a05f02-4145-4c80-b718-2b00c69f9c9b",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "stop lost / elongating",
+      "created_at": "2026-11-25T09:36:09.134Z"
+    },
+    {
+      "id": "28e27bdc-454c-4a42-8b08-23ffef792229",
+      "variant_id": "ac12d5f7-ee4e-44d4-b903-52e86f0d4307",
+      "gene_id": "fa32a5f6-f2fb-48b3-9d9c-5e1ad6afb0df",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "large structural deletion spanning HBA2 and HBA1",
+      "created_at": "2026-11-25T09:36:10.719Z"
+    },
+    {
+      "id": "1b39fefc-ccf8-4b39-b0f1-8002c39d693b",
+      "variant_id": "ad2eae72-03ad-4e89-b870-3e512569a457",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "missense variant",
+      "created_at": "2026-11-25T09:36:16.531Z"
+    },
+    {
+      "id": "3a7654b8-5be1-4cc8-ae73-bf7817e45fbf",
+      "variant_id": "b1a2a4da-81e9-4df7-a400-385dceaba948",
+      "gene_id": "0b6c3f4a-de1c-4693-835c-ce21fe249df0",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "missense variant",
+      "created_at": "2026-11-25T09:36:17.938Z"
+    },
+    {
+      "id": "b2fc9f4a-8b0f-4049-9418-be03556da9b4",
+      "variant_id": "bf9ee104-0d36-4ed6-aac8-d4556a09aa16",
+      "gene_id": "ed40b46c-822f-4eb5-9c18-d52e6eeed59d",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "missense variant / splicing enhancer",
+      "created_at": "2026-11-25T09:36:25.676Z"
+    },
+    {
+      "id": "b0ca279c-18a8-4b24-b8bc-dd3970774736",
+      "variant_id": "54fca88a-93ab-4395-a0d5-8e6d6d79578a",
+      "gene_id": "f90d5376-74a7-4fbc-8d19-7cc5bdc8f292",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "intron variant / 2+0 modifier",
+      "created_at": "2026-11-25T09:36:27.205Z"
+    },
+    {
+      "id": "6226e9bf-a67f-4b63-b395-39d1063c1378",
+      "variant_id": "a416545e-90d5-4875-9828-7196d9c968af",
+      "gene_id": "897d1c31-aa67-4438-8787-149b4fcb0604",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "inframe deletion",
+      "created_at": "2026-11-25T09:36:35.576Z"
+    },
+    {
+      "id": "f4d6701d-c364-4ef2-9943-980c4e94857f",
+      "variant_id": "05028740-b267-4150-a6da-dd4dd54eb24f",
+      "gene_id": "897d1c31-aa67-4438-8787-149b4fcb0604",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "stop gained / nonsense",
+      "created_at": "2026-11-25T09:36:37.008Z"
+    },
+    {
+      "id": "cbe439b3-c68c-4aa0-b6f4-ec9bc6719ffe",
+      "variant_id": "c5827bc9-02cb-4569-806f-a3e0edfc5e8e",
+      "gene_id": "897d1c31-aa67-4438-8787-149b4fcb0604",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "missense variant / gating defect",
+      "created_at": "2026-11-25T09:36:38.408Z"
+    },
+    {
+      "id": "f092cb8a-3afb-45e1-9593-f0d6f34f5723",
+      "variant_id": "9b3d4b06-475f-429e-ac53-a5d33ccf0b28",
+      "gene_id": "6463285d-6279-4a7a-a37e-799896d614f1",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "frameshift variant",
+      "created_at": "2026-11-25T09:36:44.849Z"
+    },
+    {
+      "id": "d8584467-e61e-4caa-9d26-26db2294296d",
+      "variant_id": "86a2d51d-a41f-4682-8bac-73b1ebea1b44",
+      "gene_id": "6463285d-6279-4a7a-a37e-799896d614f1",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "frameshift variant",
+      "created_at": "2026-11-25T09:36:46.354Z"
+    },
+    {
+      "id": "8021c670-c6ba-49f1-8ba0-84d68acb097f",
+      "variant_id": "8fb9636b-9538-48a3-a3fd-2157ad63fb78",
+      "gene_id": "6463285d-6279-4a7a-a37e-799896d614f1",
+      "relationship_type": "located_in",
+      "exon_number": null,
+      "intron_number": null,
+      "consequence": "missense variant",
+      "created_at": "2026-11-25T09:36:47.757Z"
+    }
+  ],
+  "variant_disease_relationships": [
+    {
+      "id": "6935b482-c1a5-4730-82dc-1e29a5105381",
+      "variant_id": "2fcf0f3e-9c81-4964-aff1-fb9d83b88302",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "criteria provided, multiple submitters, no conflicts",
+      "gold_stars": 2,
+      "source_evidence": {
+        "assertionsCount": 2
+      },
+      "created_at": "2026-11-25T09:35:56.307Z"
+    },
+    {
+      "id": "3ac58e37-d636-415e-b1f1-a6f71a3df875",
+      "variant_id": "69614ef3-5c1d-494d-af35-b1050c3fb47c",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:35:57.993Z"
+    },
+    {
+      "id": "f1d94c09-38fc-4a9b-8052-e22034191fdd",
+      "variant_id": "33c77d60-87ca-40a2-a37e-758c52877439",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:35:59.394Z"
+    },
+    {
+      "id": "d6b0d408-9ebe-48c8-86f4-db5cff4e668d",
+      "variant_id": "fc93f417-0ff6-4d39-9ad8-2649c863696c",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "criteria provided, multiple submitters, no conflicts",
+      "gold_stars": 2,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:09.491Z"
+    },
+    {
+      "id": "5bde532c-8772-487d-a309-4161e9f6c7a6",
+      "variant_id": "ac12d5f7-ee4e-44d4-b903-52e86f0d4307",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:11.003Z"
+    },
+    {
+      "id": "fd03476d-0f5f-42da-9204-578c973ef7eb",
+      "variant_id": "ad2eae72-03ad-4e89-b870-3e512569a457",
+      "disease_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:16.817Z"
+    },
+    {
+      "id": "5d56a461-cdad-4a1e-aeee-1f78722f141f",
+      "variant_id": "b1a2a4da-81e9-4df7-a400-385dceaba948",
+      "disease_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:18.215Z"
+    },
+    {
+      "id": "c504d4f4-f7da-4bfd-8cfa-0ae32bc1bea7",
+      "variant_id": "bf9ee104-0d36-4ed6-aac8-d4556a09aa16",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "clinical_significance": "Protective / Disease Modifier",
+      "review_status_clinvar": "criteria provided, multiple submitters, no conflicts",
+      "gold_stars": 2,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:25.953Z"
+    },
+    {
+      "id": "5a2bd671-a11b-44a7-b665-0c153658a850",
+      "variant_id": "54fca88a-93ab-4395-a0d5-8e6d6d79578a",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "clinical_significance": "Likely pathogenic / Modifier",
+      "review_status_clinvar": "criteria provided, single submitter",
+      "gold_stars": 1,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:27.518Z"
+    },
+    {
+      "id": "f7634f7a-4f33-4129-b08a-790124696702",
+      "variant_id": "a416545e-90d5-4875-9828-7196d9c968af",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:35.854Z"
+    },
+    {
+      "id": "612a72d5-7f79-4451-b2e8-d3e015b2b184",
+      "variant_id": "05028740-b267-4150-a6da-dd4dd54eb24f",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:37.291Z"
+    },
+    {
+      "id": "46d54829-1827-485a-9798-12a0113f371b",
+      "variant_id": "c5827bc9-02cb-4569-806f-a3e0edfc5e8e",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:38.686Z"
+    },
+    {
+      "id": "a5e81a7d-6c6d-416f-bd0f-f36e80c6fece",
+      "variant_id": "9b3d4b06-475f-429e-ac53-a5d33ccf0b28",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:45.229Z"
+    },
+    {
+      "id": "cf6635fb-0c9b-4112-997d-162ffa08310f",
+      "variant_id": "86a2d51d-a41f-4682-8bac-73b1ebea1b44",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:46.638Z"
+    },
+    {
+      "id": "cf964d60-edd7-4245-af0a-49ed298c22c0",
+      "variant_id": "8fb9636b-9538-48a3-a3fd-2157ad63fb78",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "clinical_significance": "Pathogenic",
+      "review_status_clinvar": "reviewed by expert panel",
+      "gold_stars": 3,
+      "source_evidence": {
+        "assertionsCount": 1
+      },
+      "created_at": "2026-11-25T09:36:48.033Z"
+    }
+  ],
+  "phenotypes": [
+    {
+      "id": "b19d076c-b020-44aa-9e49-76f703ca3665",
+      "hpo_id": "HP:0001923",
+      "term": "Reticulocytosis",
+      "definition": "An elevation in the number of circulating reticulocytes.",
+      "created_at": "2026-11-25T09:35:52.154Z"
+    },
+    {
+      "id": "5d799fe5-205c-4392-a2d8-6078b0e7a492",
+      "hpo_id": "HP:0001744",
+      "term": "Splenomegaly",
+      "definition": "Abnormal enlargement of the spleen.",
+      "created_at": "2026-11-25T09:35:52.713Z"
+    },
+    {
+      "id": "1a219999-9777-43ad-bc5c-182d3613f5de",
+      "hpo_id": "HP:0001935",
+      "term": "Microcytic anemia",
+      "definition": "Anemia with small red blood cells.",
+      "created_at": "2026-11-25T09:35:53.273Z"
+    },
+    {
+      "id": "2e55c69b-0985-46ec-a37d-5d1c2745e013",
+      "hpo_id": "HP:0001789",
+      "term": "Hydrops fetalis",
+      "definition": "Severe generalized fetal edema (seen in Hb Bart hydrops fetalis).",
+      "created_at": "2026-11-25T09:36:04.651Z"
+    },
+    {
+      "id": "f9affca4-c244-45da-8f0a-fdedeb98bde0",
+      "hpo_id": "HP:0001903",
+      "term": "Anemia",
+      "definition": "Reduction in circulating red blood cells.",
+      "created_at": "2026-11-25T09:35:51.592Z"
+    },
+    {
+      "id": "a3d4708d-ef20-4759-a4b5-823bbac14238",
+      "hpo_id": "HP:0005527",
+      "term": "Vaso-occlusive pain crisis",
+      "definition": "Severe acute pain caused by microvascular occlusion.",
+      "created_at": "2026-11-25T09:36:14.200Z"
+    },
+    {
+      "id": "ac7a0cf5-673e-4683-9aed-80cab9957ade",
+      "hpo_id": "HP:0001878",
+      "term": "Hemolytic anemia",
+      "definition": "Anemia resulting from premature destruction of erythrocytes.",
+      "created_at": "2026-11-25T09:36:14.816Z"
+    },
+    {
+      "id": "261e29f8-ffd4-41b7-9a40-107f69b2ff55",
+      "hpo_id": "HP:0003202",
+      "term": "Skeletal muscle atrophy",
+      "definition": "A reduction in skeletal muscle mass.",
+      "created_at": "2026-11-25T09:36:20.239Z"
+    },
+    {
+      "id": "cb492a4b-d3b5-4f8c-9fab-ac5c0d4395ac",
+      "hpo_id": "HP:0003444",
+      "term": "Lower motor neuron weakness",
+      "definition": "Muscle weakness resulting from lower motor neuron degeneration.",
+      "created_at": "2026-11-25T09:36:20.820Z"
+    },
+    {
+      "id": "25eab25a-0fdc-492a-8def-7a026feb75ee",
+      "hpo_id": "HP:0002094",
+      "term": "Dyspnea",
+      "definition": "Difficult or labored breathing.",
+      "created_at": "2026-11-25T09:36:21.379Z"
+    },
+    {
+      "id": "1989bf35-f0f2-4429-96aa-4a1a510d4851",
+      "hpo_id": "HP:0002110",
+      "term": "Bronchiectasis",
+      "definition": "Persistent abnormal dilation of bronchi.",
+      "created_at": "2026-11-25T09:36:30.664Z"
+    },
+    {
+      "id": "eadba01b-7d50-4998-8140-04e4e7666f73",
+      "hpo_id": "HP:0002027",
+      "term": "Abdominal pain",
+      "definition": "Sensation of marked discomfort in the abdominal region.",
+      "created_at": "2026-11-25T09:36:31.302Z"
+    },
+    {
+      "id": "6c0200de-c902-418e-adb2-4a03601fdac2",
+      "hpo_id": "HP:0001508",
+      "term": "Failure to thrive",
+      "definition": "Significantly lower weight gain or physical growth.",
+      "created_at": "2026-11-25T09:36:31.916Z"
+    },
+    {
+      "id": "fdcc56f6-1e63-4208-a03f-70462a66ba44",
+      "hpo_id": "HP:0004482",
+      "term": "Elevated sweat chloride",
+      "definition": "Elevated chloride concentration in sweat (>60 mmol/L).",
+      "created_at": "2026-11-25T09:36:32.474Z"
+    },
+    {
+      "id": "9829b4f1-f38a-4d08-9168-eec6f8ae9f98",
+      "hpo_id": "HP:0003002",
+      "term": "Breast carcinoma",
+      "definition": "A malignant neoplasm of the breast tissue.",
+      "created_at": "2026-11-25T09:36:41.120Z"
+    },
+    {
+      "id": "d122d01b-54dd-439a-a637-19cfefb6f268",
+      "hpo_id": "HP:0001889",
+      "term": "Ovarian neoplasm",
+      "definition": "A tumor of the ovary.",
+      "created_at": "2026-11-25T09:36:41.680Z"
+    },
+    {
+      "id": "97e37e42-133c-4f8c-be3d-92f2da21fea1",
+      "hpo_id": "HP:0002664",
+      "term": "Neoplasm",
+      "definition": "Abnormal and uncontrolled cell proliferation.",
+      "created_at": "2026-11-25T09:36:42.239Z"
+    }
+  ],
+  "disease_phenotype_relationships": [
+    {
+      "id": "a5d8bac7-e393-447a-b0d9-a7e9fd61d674",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "phenotype_id": "f9affca4-c244-45da-8f0a-fdedeb98bde0",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:35:51.867Z"
+    },
+    {
+      "id": "d5a7373d-4d34-4abb-9444-69ed929f08b1",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "phenotype_id": "b19d076c-b020-44aa-9e49-76f703ca3665",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:35:52.430Z"
+    },
+    {
+      "id": "6ec40961-8025-4627-a7e8-bbae0077609a",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "phenotype_id": "5d799fe5-205c-4392-a2d8-6078b0e7a492",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:35:52.990Z"
+    },
+    {
+      "id": "99328ad5-f9db-421d-b4f6-66afe2a7fd03",
+      "disease_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "phenotype_id": "1a219999-9777-43ad-bc5c-182d3613f5de",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:35:53.550Z"
+    },
+    {
+      "id": "ab873288-ac8a-43e3-8927-8af32d6a47cd",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "phenotype_id": "f9affca4-c244-45da-8f0a-fdedeb98bde0",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:03.816Z"
+    },
+    {
+      "id": "458cd510-12cd-4072-b69f-ec6d1492e262",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "phenotype_id": "1a219999-9777-43ad-bc5c-182d3613f5de",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:04.375Z"
+    },
+    {
+      "id": "5f4e0161-5e30-4e54-9699-6203c61fdf27",
+      "disease_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "phenotype_id": "2e55c69b-0985-46ec-a37d-5d1c2745e013",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:04.935Z"
+    },
+    {
+      "id": "bae6d6fd-86d6-45d9-b716-2c9f4447510d",
+      "disease_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "phenotype_id": "f9affca4-c244-45da-8f0a-fdedeb98bde0",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:13.870Z"
+    },
+    {
+      "id": "c00f70b1-c79e-4f00-b78c-d47d88466987",
+      "disease_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "phenotype_id": "a3d4708d-ef20-4759-a4b5-823bbac14238",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:14.484Z"
+    },
+    {
+      "id": "6acd726d-b88b-426d-ab65-046423073fd9",
+      "disease_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "phenotype_id": "ac7a0cf5-673e-4683-9aed-80cab9957ade",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:15.132Z"
+    },
+    {
+      "id": "73cca490-aafc-48b6-b7cd-dab292598011",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "phenotype_id": "261e29f8-ffd4-41b7-9a40-107f69b2ff55",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:20.519Z"
+    },
+    {
+      "id": "c1850bf6-f3d1-4598-a6eb-3d213af1174e",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "phenotype_id": "cb492a4b-d3b5-4f8c-9fab-ac5c0d4395ac",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:21.098Z"
+    },
+    {
+      "id": "a8e631a9-b938-4b9c-b42d-eca1c231512a",
+      "disease_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "phenotype_id": "25eab25a-0fdc-492a-8def-7a026feb75ee",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:21.654Z"
+    },
+    {
+      "id": "0033526f-e1bd-411f-9153-019208007210",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "phenotype_id": "1989bf35-f0f2-4429-96aa-4a1a510d4851",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:30.945Z"
+    },
+    {
+      "id": "8b46655f-66fd-4699-8d10-f153ace2054b",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "phenotype_id": "eadba01b-7d50-4998-8140-04e4e7666f73",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:31.613Z"
+    },
+    {
+      "id": "735e7f36-7481-4218-9f83-edc734e3d2f5",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "phenotype_id": "6c0200de-c902-418e-adb2-4a03601fdac2",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:32.199Z"
+    },
+    {
+      "id": "0fd72fee-bf08-40f3-a239-1e8bc49545e7",
+      "disease_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "phenotype_id": "fdcc56f6-1e63-4208-a03f-70462a66ba44",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:32.843Z"
+    },
+    {
+      "id": "1a866d13-9c6a-40be-9c0d-588fdb1db969",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "phenotype_id": "9829b4f1-f38a-4d08-9168-eec6f8ae9f98",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:41.403Z"
+    },
+    {
+      "id": "de18ecb2-0095-4261-80b1-74327376692d",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "phenotype_id": "d122d01b-54dd-439a-a637-19cfefb6f268",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:41.963Z"
+    },
+    {
+      "id": "614e9a7b-09f2-45f3-8e6a-1827881c6b0a",
+      "disease_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "phenotype_id": "97e37e42-133c-4f8c-be3d-92f2da21fea1",
+      "frequency": "Frequent",
+      "source_evidence": {},
+      "created_at": "2026-11-25T09:36:42.522Z"
+    }
+  ],
+  "publications": [
+    {
+      "id": "37c62662-7b93-4c28-accb-c24901ed60b8",
+      "pmid": "32036094",
+      "pmcid": null,
+      "doi": "10.1016/j.jmoldx.2020.01.003",
+      "title": "Expanding the Clinical and Molecular Heterogeneity of Nonsyndromic Inherited Retinal Dystrophies.",
+      "authors": [
+        "Rodríguez-Muñoz A",
+        "Aller E",
+        "Jaijo T",
+        "González-García E",
+        "Cabrera-Peset A",
+        "Gallego-Pinazo R",
+        "Udaondo P",
+        "Salom D",
+        "García-García G",
+        "Millán JM"
+      ],
+      "journal": "J Mol Diagn",
+      "pub_year": 2020,
+      "pub_date": "2020 Apr",
+      "abstract": null,
+      "source_record": {
+        "uid": "32036094",
+        "essn": "1943-7811",
+        "issn": "1525-1578",
+        "lang": [
+          "eng"
+        ],
+        "issue": "4",
+        "pages": "532-543",
+        "title": "Expanding the Clinical and Molecular Heterogeneity of Nonsyndromic Inherited Retinal Dystrophies.",
+        "medium": "",
+        "source": "J Mol Diagn",
+        "volume": "22",
+        "authors": [
+          {
+            "name": "Rodríguez-Muñoz A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Aller E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jaijo T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "González-García E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cabrera-Peset A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gallego-Pinazo R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Udaondo P",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Salom D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "García-García G",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Millán JM",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "chapter": "",
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "history": [
+          {
+            "date": "2019/09/19 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2019/11/01 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2020/01/12 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2020/02/10 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2021/06/05 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2020/02/10 06:00",
+            "pubstatus": "entrez"
+          }
+        ],
+        "pubdate": "2020 Apr",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "srcdate": "",
+        "bookname": "",
+        "epubdate": "2020 Feb 7",
+        "booktitle": "",
+        "pubstatus": "256",
+        "sorttitle": "expanding the clinical and molecular heterogeneity of nonsyndromic inherited retinal dystrophies",
+        "articleids": [
+          {
+            "value": "32036094",
+            "idtype": "pubmed",
+            "idtypen": 1
+          },
+          {
+            "value": "10.1016/j.jmoldx.2020.01.003",
+            "idtype": "doi",
+            "idtypen": 3
+          },
+          {
+            "value": "S1525-1578(20)30008-8",
+            "idtype": "pii",
+            "idtypen": 4
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "lastauthor": "Millán JM",
+        "references": [],
+        "elocationid": "doi: 10.1016/j.jmoldx.2020.01.003",
+        "nlmuniqueid": "100893612",
+        "pmcrefcount": "",
+        "sortpubdate": "2020/04/01 00:00",
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "reportnumber": "",
+        "locationlabel": "",
+        "publishername": "",
+        "doccontriblist": [],
+        "srccontriblist": [],
+        "fulljournalname": "The Journal of molecular diagnostics : JMD",
+        "sortfirstauthor": "Rodríguez-Muñoz A",
+        "vernaculartitle": "",
+        "availablefromurl": "",
+        "publisherlocation": ""
+      },
+      "created_at": "2026-11-25T09:36:01.067Z"
+    },
+    {
+      "id": "6a76d18d-30a9-4d7b-9539-142b509a8a42",
+      "pmid": "25741868",
+      "pmcid": "PMC4544753",
+      "doi": "10.1038/gim.2015.30",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology.",
+      "authors": [
+        "Richards S",
+        "Aziz N",
+        "Bale S",
+        "Bick D",
+        "Das S",
+        "Gastier-Foster J",
+        "Grody WW",
+        "Hegde M",
+        "Lyon E",
+        "Spector E",
+        "Voelkerding K",
+        "Rehm HL",
+        "ACMG Laboratory Quality Assurance Committee"
+      ],
+      "journal": "Genet Med",
+      "pub_year": 2015,
+      "pub_date": "2015 May",
+      "abstract": null,
+      "source_record": {
+        "uid": "25741868",
+        "essn": "1530-0366",
+        "issn": "1098-3600",
+        "lang": [
+          "eng"
+        ],
+        "issue": "5",
+        "pages": "405-24",
+        "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology.",
+        "medium": "",
+        "source": "Genet Med",
+        "volume": "17",
+        "authors": [
+          {
+            "name": "Richards S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Aziz N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bale S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Bick D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Das S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gastier-Foster J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Grody WW",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Hegde M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lyon E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Spector E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Voelkerding K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Rehm HL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "ACMG Laboratory Quality Assurance Committee",
+            "authtype": "CollectiveName",
+            "clusterid": ""
+          }
+        ],
+        "chapter": "",
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "history": [
+          {
+            "date": "2015/01/28 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2015/01/28 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2015/03/06 06:00",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2015/03/06 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2016/02/04 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2015/11/01 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "pubdate": "2015 May",
+        "pubtype": [
+          "Consensus Statement",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "srcdate": "",
+        "bookname": "",
+        "epubdate": "2015 Mar 5",
+        "booktitle": "",
+        "pubstatus": "256",
+        "sorttitle": "standards and guidelines for the interpretation of sequence variants a joint consensus recommendation of the american college of medical genetics and genomics and the association for molecular pathology",
+        "articleids": [
+          {
+            "value": "25741868",
+            "idtype": "pubmed",
+            "idtypen": 1
+          },
+          {
+            "value": "NIHMS697486",
+            "idtype": "mid",
+            "idtypen": 8
+          },
+          {
+            "value": "PMC4544753",
+            "idtype": "pmc",
+            "idtypen": 8
+          },
+          {
+            "value": "pmc-id: PMC4544753;manuscript-id: NIHMS697486;",
+            "idtype": "pmcid",
+            "idtypen": 5
+          },
+          {
+            "value": "10.1038/gim.2015.30",
+            "idtype": "doi",
+            "idtypen": 3
+          },
+          {
+            "value": "S1098-3600(21)03031-8",
+            "idtype": "pii",
+            "idtypen": 4
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "lastauthor": "Rehm HL",
+        "references": [
+          {
+            "note": "",
+            "pmid": 25854183,
+            "reftype": "Comment in",
+            "refsource": "Nat Rev Genet. 2015 May;16(5):256-7. doi: 10.1038/nrg3940."
+          },
+          {
+            "note": "",
+            "pmid": 26540153,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2015 Dec;17(12):1012. doi: 10.1038/gim.2015.150."
+          },
+          {
+            "note": "",
+            "pmid": 26562226,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2015 Dec;17(12):1013-4. doi: 10.1038/gim.2015.151."
+          },
+          {
+            "note": "",
+            "pmid": 29543229,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2018 Dec;20(12):1687-1688. doi: 10.1038/gim.2018.42."
+          },
+          {
+            "note": "",
+            "pmid": 29543230,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2018 Dec;20(12):1689-1690. doi: 10.1038/gim.2018.43."
+          },
+          {
+            "note": "",
+            "pmid": 30670879,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2019 Aug;21(8):1699-1701. doi: 10.1038/s41436-018-0432-7."
+          },
+          {
+            "note": "",
+            "pmid": 32418987,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2020 Aug;22(8):1418-1419. doi: 10.1038/s41436-020-0804-7."
+          },
+          {
+            "note": "",
+            "pmid": 33154565,
+            "reftype": "Comment in",
+            "refsource": "Genet Med. 2021 Mar;23(3):586. doi: 10.1038/s41436-020-01032-6."
+          }
+        ],
+        "elocationid": "doi: 10.1038/gim.2015.30",
+        "nlmuniqueid": "9815831",
+        "pmcrefcount": 56,
+        "sortpubdate": "2015/05/01 00:00",
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "reportnumber": "",
+        "locationlabel": "",
+        "publishername": "",
+        "doccontriblist": [],
+        "srccontriblist": [],
+        "fulljournalname": "Genetics in medicine : official journal of the American College of Medical Genetics",
+        "sortfirstauthor": "Richards S",
+        "vernaculartitle": "",
+        "availablefromurl": "",
+        "publisherlocation": ""
+      },
+      "created_at": "2026-11-25T09:36:12.626Z"
+    },
+    {
+      "id": "f3e94d0e-2c4c-4343-9bf9-fe2420552361",
+      "pmid": "22570414",
+      "pmcid": "PMC3394279",
+      "doi": "10.1093/nar/gks373",
+      "title": "RPF: a quality assessment tool for protein NMR structures.",
+      "authors": [
+        "Huang YJ",
+        "Rosato A",
+        "Singh G",
+        "Montelione GT"
+      ],
+      "journal": "Nucleic Acids Res",
+      "pub_year": 2012,
+      "pub_date": "2012 Jul",
+      "abstract": null,
+      "source_record": {
+        "uid": "22570414",
+        "essn": "1362-4962",
+        "issn": "0305-1048",
+        "lang": [
+          "eng"
+        ],
+        "issue": "Web Server issue",
+        "pages": "W542-6",
+        "title": "RPF: a quality assessment tool for protein NMR structures.",
+        "medium": "",
+        "source": "Nucleic Acids Res",
+        "volume": "40",
+        "authors": [
+          {
+            "name": "Huang YJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Rosato A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Singh G",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Montelione GT",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "chapter": "",
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "history": [
+          {
+            "date": "2012/05/10 06:00",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2012/05/10 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2012/12/13 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2012/05/08 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "pubdate": "2012 Jul",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "srcdate": "",
+        "bookname": "",
+        "epubdate": "2012 May 8",
+        "booktitle": "",
+        "pubstatus": "256",
+        "sorttitle": "rpf a quality assessment tool for protein nmr structures",
+        "articleids": [
+          {
+            "value": "22570414",
+            "idtype": "pubmed",
+            "idtypen": 1
+          },
+          {
+            "value": "PMC3394279",
+            "idtype": "pmc",
+            "idtypen": 8
+          },
+          {
+            "value": "pmc-id: PMC3394279;",
+            "idtype": "pmcid",
+            "idtypen": 5
+          },
+          {
+            "value": "10.1093/nar/gks373",
+            "idtype": "doi",
+            "idtypen": 3
+          },
+          {
+            "value": "gks373",
+            "idtype": "pii",
+            "idtypen": 4
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "lastauthor": "Montelione GT",
+        "references": [],
+        "elocationid": "doi: 10.1093/nar/gks373",
+        "nlmuniqueid": "0411011",
+        "pmcrefcount": 17,
+        "sortpubdate": "2012/07/01 00:00",
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "reportnumber": "",
+        "locationlabel": "",
+        "publishername": "",
+        "doccontriblist": [],
+        "srccontriblist": [],
+        "fulljournalname": "Nucleic acids research",
+        "sortfirstauthor": "Huang YJ",
+        "vernaculartitle": "",
+        "availablefromurl": "",
+        "publisherlocation": ""
+      },
+      "created_at": "2026-11-25T09:36:29.147Z"
+    },
+    {
+      "id": "49ccdef1-e40c-4d3f-866b-68e3a1799623",
+      "pmid": "24033266",
+      "pmcid": "PMC3995020",
+      "doi": "10.1111/cge.12257",
+      "title": "A systematic approach to assessing the clinical significance of genetic variants.",
+      "authors": [
+        "Duzkale H",
+        "Shen J",
+        "McLaughlin H",
+        "Alfares A",
+        "Kelly MA",
+        "Pugh TJ",
+        "Funke BH",
+        "Rehm HL",
+        "Lebo MS"
+      ],
+      "journal": "Clin Genet",
+      "pub_year": 2013,
+      "pub_date": "2013 Nov",
+      "abstract": null,
+      "source_record": {
+        "uid": "24033266",
+        "essn": "1399-0004",
+        "issn": "0009-9163",
+        "lang": [
+          "eng"
+        ],
+        "issue": "5",
+        "pages": "453-63",
+        "title": "A systematic approach to assessing the clinical significance of genetic variants.",
+        "medium": "",
+        "source": "Clin Genet",
+        "volume": "84",
+        "authors": [
+          {
+            "name": "Duzkale H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Shen J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "McLaughlin H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Alfares A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kelly MA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Pugh TJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Funke BH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Rehm HL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lebo MS",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "chapter": "",
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "history": [
+          {
+            "date": "2013/07/07 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2013/08/19 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2013/08/19 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2013/09/17 06:00",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2013/09/17 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2014/06/04 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2014/11/01 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "pubdate": "2013 Nov",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "srcdate": "",
+        "bookname": "",
+        "epubdate": "",
+        "booktitle": "",
+        "pubstatus": "4",
+        "sorttitle": "systematic approach to assessing the clinical significance of genetic variants",
+        "articleids": [
+          {
+            "value": "24033266",
+            "idtype": "pubmed",
+            "idtypen": 1
+          },
+          {
+            "value": "NIHMS566009",
+            "idtype": "mid",
+            "idtypen": 8
+          },
+          {
+            "value": "PMC3995020",
+            "idtype": "pmc",
+            "idtypen": 8
+          },
+          {
+            "value": "pmc-id: PMC3995020;manuscript-id: NIHMS566009;",
+            "idtype": "pmcid",
+            "idtypen": 5
+          },
+          {
+            "value": "10.1111/cge.12257",
+            "idtype": "doi",
+            "idtypen": 3
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "lastauthor": "Lebo MS",
+        "references": [],
+        "elocationid": "doi: 10.1111/cge.12257",
+        "nlmuniqueid": "0253664",
+        "pmcrefcount": 44,
+        "sortpubdate": "2013/11/01 00:00",
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "reportnumber": "",
+        "locationlabel": "",
+        "publishername": "",
+        "doccontriblist": [],
+        "srccontriblist": [],
+        "fulljournalname": "Clinical genetics",
+        "sortfirstauthor": "Duzkale H",
+        "vernaculartitle": "",
+        "availablefromurl": "",
+        "publisherlocation": ""
+      },
+      "created_at": "2026-11-25T09:36:02.691Z"
+    },
+    {
+      "id": "47eec51f-db90-45b1-b14a-70875d17bf37",
+      "pmid": "29749106",
+      "pmcid": "PMC6005591",
+      "doi": "10.1111/bcp.13606",
+      "title": "Gjestad et al. reply to 'Was 4β-hydroxycholesterol ever going to be a useful marker of CYP3A4 activity?' by Neuhoff and Tucker.",
+      "authors": [
+        "Gjestad C",
+        "Haslemo T",
+        "Andreassen OA",
+        "Molden E"
+      ],
+      "journal": "Br J Clin Pharmacol",
+      "pub_year": 2018,
+      "pub_date": "2018 Jul",
+      "abstract": null,
+      "source_record": {
+        "uid": "29749106",
+        "essn": "1365-2125",
+        "issn": "0306-5251",
+        "lang": [
+          "eng"
+        ],
+        "issue": "7",
+        "pages": "1624-1625",
+        "title": "Gjestad et al. reply to 'Was 4β-hydroxycholesterol ever going to be a useful marker of CYP3A4 activity?' by Neuhoff and Tucker.",
+        "medium": "",
+        "source": "Br J Clin Pharmacol",
+        "volume": "84",
+        "authors": [
+          {
+            "name": "Gjestad C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Haslemo T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Andreassen OA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Molden E",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "chapter": "",
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "history": [
+          {
+            "date": "2018/02/05 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2018/03/25 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2018/04/02 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2018/05/12 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2019/05/28 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2018/05/12 06:00",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2019/07/01 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "pubdate": "2018 Jul",
+        "pubtype": [
+          "Letter",
+          "Research Support, Non-U.S. Gov't",
+          "Comment"
+        ],
+        "srcdate": "",
+        "bookname": "",
+        "epubdate": "2018 May 10",
+        "booktitle": "",
+        "pubstatus": "256",
+        "sorttitle": "gjestad et al reply to was 4 hydroxycholesterol ever going to be a useful marker of cyp3a4 activity by neuhoff and tucker",
+        "articleids": [
+          {
+            "value": "29749106",
+            "idtype": "pubmed",
+            "idtypen": 1
+          },
+          {
+            "value": "PMC6005591",
+            "idtype": "pmc",
+            "idtypen": 8
+          },
+          {
+            "value": "pmc-id: PMC6005591;",
+            "idtype": "pmcid",
+            "idtypen": 5
+          },
+          {
+            "value": "10.1111/bcp.13606",
+            "idtype": "doi",
+            "idtypen": 3
+          }
+        ],
+        "attributes": [],
+        "lastauthor": "Molden E",
+        "references": [
+          {
+            "note": "",
+            "pmid": 28585378,
+            "reftype": "Comment on",
+            "refsource": "Br J Clin Pharmacol. 2017 Nov;83(11):2398-2405. doi: 10.1111/bcp.13341."
+          },
+          {
+            "note": "",
+            "pmid": 29464732,
+            "reftype": "Comment on",
+            "refsource": "Br J Clin Pharmacol. 2018 Jul;84(7):1620-1621. doi: 10.1111/bcp.13538."
+          }
+        ],
+        "elocationid": "doi: 10.1111/bcp.13606",
+        "nlmuniqueid": "7503323",
+        "pmcrefcount": 17,
+        "sortpubdate": "2018/07/01 00:00",
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "reportnumber": "",
+        "locationlabel": "",
+        "publishername": "",
+        "doccontriblist": [],
+        "srccontriblist": [],
+        "fulljournalname": "British journal of clinical pharmacology",
+        "sortfirstauthor": "Gjestad C",
+        "vernaculartitle": "",
+        "availablefromurl": "",
+        "publisherlocation": ""
+      },
+      "created_at": "2026-11-25T09:36:39.717Z"
+    }
+  ],
+  "scientific_references": [
+    {
+      "id": "0751560e-86bb-473b-b59c-9fe680d89a26",
+      "publication_id": "37c62662-7b93-4c28-accb-c24901ed60b8",
+      "entity_type": "disease",
+      "entity_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "evidence_note": "Key literature benchmark for Beta-thalassemia",
+      "created_at": "2026-11-25T09:36:01.345Z"
+    },
+    {
+      "id": "7fb3b9e1-671e-48ba-b90a-67a9a00eca33",
+      "publication_id": "49ccdef1-e40c-4d3f-866b-68e3a1799623",
+      "entity_type": "disease",
+      "entity_id": "e74f20ab-a80a-4e7d-a146-07c157af5f6f",
+      "evidence_note": "Key literature benchmark for Beta-thalassemia",
+      "created_at": "2026-11-25T09:36:02.969Z"
+    },
+    {
+      "id": "22c08cff-aaaa-4574-a7f9-15d1d75fe8ae",
+      "publication_id": "49ccdef1-e40c-4d3f-866b-68e3a1799623",
+      "entity_type": "disease",
+      "entity_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "evidence_note": "Key literature benchmark for Alpha-thalassemia",
+      "created_at": "2026-11-25T09:36:11.843Z"
+    },
+    {
+      "id": "fd505abb-22ed-41c6-8032-cc59cb246775",
+      "publication_id": "6a76d18d-30a9-4d7b-9539-142b509a8a42",
+      "entity_type": "disease",
+      "entity_id": "09e5da19-d676-487e-b5ce-ce02d42d6ec2",
+      "evidence_note": "Key literature benchmark for Alpha-thalassemia",
+      "created_at": "2026-11-25T09:36:12.959Z"
+    },
+    {
+      "id": "44671141-83b2-4451-a6dd-09a207e4f656",
+      "publication_id": "49ccdef1-e40c-4d3f-866b-68e3a1799623",
+      "entity_type": "disease",
+      "entity_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "evidence_note": "Key literature benchmark for Sickle Cell Disease / Sickle Cell Anemia",
+      "created_at": "2026-11-25T09:36:19.061Z"
+    },
+    {
+      "id": "d3bcbacf-98ed-4ad8-8dab-725860047951",
+      "publication_id": "6a76d18d-30a9-4d7b-9539-142b509a8a42",
+      "entity_type": "disease",
+      "entity_id": "71ccdfce-1965-4247-aa12-10081b20a4ed",
+      "evidence_note": "Key literature benchmark for Sickle Cell Disease / Sickle Cell Anemia",
+      "created_at": "2026-11-25T09:36:19.660Z"
+    },
+    {
+      "id": "5f2c41a7-b501-496f-88f8-9153d29863f7",
+      "publication_id": "f3e94d0e-2c4c-4343-9bf9-fe2420552361",
+      "entity_type": "disease",
+      "entity_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "evidence_note": "Key literature benchmark for Spinal Muscular Atrophy, Types 1-4",
+      "created_at": "2026-11-25T09:36:29.424Z"
+    },
+    {
+      "id": "46312159-0b5a-4f6d-9b73-1737579802ca",
+      "publication_id": "6a76d18d-30a9-4d7b-9539-142b509a8a42",
+      "entity_type": "disease",
+      "entity_id": "db00e4eb-d4e0-4622-b982-932f8ac4cb5d",
+      "evidence_note": "Key literature benchmark for Spinal Muscular Atrophy, Types 1-4",
+      "created_at": "2026-11-25T09:36:30.073Z"
+    },
+    {
+      "id": "cbc52eeb-d739-4414-ad19-0b0138e17475",
+      "publication_id": "47eec51f-db90-45b1-b14a-70875d17bf37",
+      "entity_type": "disease",
+      "entity_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "evidence_note": "Key literature benchmark for Cystic Fibrosis",
+      "created_at": "2026-11-25T09:36:39.995Z"
+    },
+    {
+      "id": "bbbe5da4-9840-41fe-a636-66cc5b490707",
+      "publication_id": "6a76d18d-30a9-4d7b-9539-142b509a8a42",
+      "entity_type": "disease",
+      "entity_id": "d254706a-86fd-4c7b-9cf0-a3aad75fb9a0",
+      "evidence_note": "Key literature benchmark for Cystic Fibrosis",
+      "created_at": "2026-11-25T09:36:40.558Z"
+    },
+    {
+      "id": "dd39589a-5e21-4563-add4-0aa13532a9c0",
+      "publication_id": "6a76d18d-30a9-4d7b-9539-142b509a8a42",
+      "entity_type": "disease",
+      "entity_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "evidence_note": "Key literature benchmark for Hereditary Breast and Ovarian Cancer Syndrome (BRCA1-related)",
+      "created_at": "2026-11-25T09:36:48.884Z"
+    },
+    {
+      "id": "0c25677c-e740-422e-a551-69eb918e43b1",
+      "publication_id": "49ccdef1-e40c-4d3f-866b-68e3a1799623",
+      "entity_type": "disease",
+      "entity_id": "b40fde65-51c9-4f0c-97af-6bb4bb352295",
+      "evidence_note": "Key literature benchmark for Hereditary Breast and Ovarian Cancer Syndrome (BRCA1-related)",
+      "created_at": "2026-11-25T09:36:49.445Z"
+    }
+  ],
+  "data_sources": [
+    {
+      "id": "ncbi_gene",
+      "name": "NCBI Gene (National Center for Biotechnology Information)",
+      "base_url": "https://www.ncbi.nlm.nih.gov/gene/",
+      "description": "Gene-specific information supplying tracked nomenclature, genomic coordinates, and sequence attributes.",
+      "license_type": "Public Domain (US Government Work)",
+      "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    },
+    {
+      "id": "ncbi_clinvar",
+      "name": "NCBI ClinVar",
+      "base_url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "description": "Public archive of reports of the relationships among human variations and phenotypes, with supporting evidence.",
+      "license_type": "Public Domain (US Government Work)",
+      "terms_url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    },
+    {
+      "id": "ncbi_medgen",
+      "name": "NCBI MedGen",
+      "base_url": "https://www.ncbi.nlm.nih.gov/medgen/",
+      "description": "Portal to information about conditions and phenotypes related to medical genetics.",
+      "license_type": "Public Domain (US Government Work)",
+      "terms_url": "https://www.ncbi.nlm.nih.gov/medgen/docs/policies/",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    },
+    {
+      "id": "ncbi_pubmed",
+      "name": "PubMed / MEDLINE (National Library of Medicine)",
+      "base_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "description": "Peer-reviewed biomedical literature citations and author abstracts.",
+      "license_type": "Public Domain Metadata (NLM)",
+      "terms_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions.html",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    },
+    {
+      "id": "omim",
+      "name": "Online Mendelian Inheritance in Man (OMIM)",
+      "base_url": "https://omim.org/",
+      "description": "Authoritative compendium of human genes and genetic phenotypes.",
+      "license_type": "Copyright Johns Hopkins University (Academic/Research Use)",
+      "terms_url": "https://omim.org/help/agreement",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    },
+    {
+      "id": "clingen",
+      "name": "Clinical Genome Resource (ClinGen)",
+      "base_url": "https://clinicalgenome.org/",
+      "description": "NIH-funded resource defining the clinical relevance of genes and variants for precision medicine.",
+      "license_type": "Creative Commons CC-BY 4.0",
+      "terms_url": "https://clinicalgenome.org/about/terms-of-use/",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    },
+    {
+      "id": "hgnc",
+      "name": "HUGO Gene Nomenclature Committee (HGNC)",
+      "base_url": "https://www.genenames.org/",
+      "description": "Authoritative resource for approved human gene nomenclature.",
+      "license_type": "Open Access / CC-BY 4.0",
+      "terms_url": "https://www.genenames.org/about/terms-and-conditions/",
+      "is_active": true,
+      "created_at": "2026-11-25T09:30:42.915Z"
+    }
+  ],
+  "dataset_versions": [
+    {
+      "id": "7831266f-a2ef-4b7b-8f11-4b91430d506b",
+      "data_source_id": "ncbi_clinvar",
+      "version_tag": "ClinVar-NCBI-Seed-v1.0",
+      "retrieval_date": "2026-11-25T09:36:49.720Z",
+      "record_count": 15,
+      "metadata": {
+        "genes": 8,
+        "diseases": 6,
+        "variants": 15
+      }
+    }
+  ],
+  "import_jobs": [
+    {
+      "id": "cb900b36-fe7e-4672-a653-708f72b5c671",
+      "job_name": "Targeted-Clinical-Genomics-Seed",
+      "target_disease": "Beta-thal, Alpha-thal, Sickle Cell, SMA, CF, BRCA1",
+      "status": "completed",
+      "records_ingested": 29,
+      "records_updated": 0,
+      "errors": [],
+      "started_at": "2026-11-25T09:35:49.883Z",
+      "completed_at": "2026-11-25T09:36:50.004Z"
+    }
+  ],
+  "scientific_reviews": [],
+  "audit_logs": [
+    {
+      "id": "168a2e20-5e49-4808-9231-e40e3d4b82d1",
+      "actor_email": "pipeline@akahelix.com",
+      "action": "INGEST_TARGETED_DATASET",
+      "entity_type": "system",
+      "entity_id": "cb900b36-fe7e-4672-a653-708f72b5c671",
+      "details": {
+        "genes": 8,
+        "diseases": 6,
+        "variants": 15,
+        "assertions": 16,
+        "publications": 12
+      },
+      "ip_address": null,
+      "created_at": "2026-11-25T09:36:50.282Z"
+    }
+  ]
+}

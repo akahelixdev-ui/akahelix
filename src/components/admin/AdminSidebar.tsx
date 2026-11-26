@@ -8,6 +8,7 @@ import {
   ChartLineUp,
   ChatCircleDots,
   CheckCircle,
+  Dna,
   Flask,
   GearSix,
   SignOut,
@@ -95,6 +96,13 @@ export function AdminSidebar({
       monoLabel: "07",
       icon: GearSix,
       badge: null,
+    },
+    {
+      id: "genomics" as AdminTab,
+      label: "Genomics Database",
+      monoLabel: "08",
+      icon: Dna,
+      badge: "DB",
     },
   ];
 

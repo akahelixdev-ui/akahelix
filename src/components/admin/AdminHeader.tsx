@@ -56,6 +56,11 @@ export function AdminHeader({
       title: "Director Qualifications & Compliance",
       subtitle: "NYS CLEP Certificates of Qualification, CAP inspection history, and data backup",
     },
+    genomics: {
+      category: "Molecular Curation",
+      title: "Genomics Research Database Gateway",
+      subtitle: "NCBI/ClinVar curation, variant assertions, scientific review queue & audit ledger",
+    },
   };
 
   const meta = titles[currentTab];
